@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Fire Protection CEPREVEN RT1-ROC",
+    "standard": "UNE EN-12845",
+    "image": "images/fireFightingEquipments/1.jpg"
+  },
+  {
+    "title": "Firefighting CEPREVEN RT2-ABA",
+    "standard": "",
+    "image": "images/fireFightingEquipments/2.jpg"
+  },
+  {
+    "title": "Firefighting UNE 23500-2012",
+    "image": "images/fireFightingEquipments/3.jpg"
+  },
+  {
+    "title": "Firefighting NFPA20",
+    "standard": "",
+    "image": "images/fireFightingEquipments/4.jpg"
+  },
+  {
+    "title": "Contraincendios NFPA20",
+    "standard": "UL-FM",
+    "image": "images/fireFightingEquipments/5.jpg"
+  }
+]

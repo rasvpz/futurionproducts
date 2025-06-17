@@ -1,0 +1,47 @@
+[
+    {
+        "name":"2 - Pole, Motor type",
+        "sepcifics":"SJM2/SJM#",
+        "image":"images/waterSupplyPumps/1.jpg"
+    },
+    {
+        "name":"2/4 - Pole, Direct Coupled",
+        "sepcifics":"SJ / SJ4",
+        "image":"images/waterSupplyPumps/2.jpg"
+    },
+    {
+        "name":"2/4 Pole, Direct Coupled",
+        "sepcifics":"LS2 / LS",
+        "image":"images/waterSupplyPumps/3.jpg"
+    },
+    {
+        "name":"4 - Pole, Multistage direct-coupled",
+        "sepcifics":"M",
+        "image":"images/waterSupplyPumps/4.jpg"
+    },
+    {
+        "name":"4 - Pole, Motor type",
+        "sepcifics":"SJMS",
+        "image":"images/waterSupplyPumps/5.jpg"
+    },
+    {
+        "name":"2 - Pole, Direct Coupled",
+        "sepcifics":"SJ4S",
+        "image":"images/waterSupplyPumps/6.jpg"
+    },
+    {
+        "name":"2 - Pole, Mutlilarge motor type",
+        "sepcifics":"NX",
+        "image":"images/waterSupplyPumps/7.jpg"
+    },
+    {
+        "name":"2 - Pole, Multistage direct-coupled",
+        "sepcifics":"MKHS",
+        "image":"images/waterSupplyPumps/8.jpg"
+    },
+    {
+        "name":"2 - Pole, Direct Coupled",
+        "sepcifics":"SVM",
+        "image":"images/waterSupplyPumps/9.jpg"
+    }
+]

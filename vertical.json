@@ -1,0 +1,18 @@
+[
+  {
+    "image": "images/verticalPumps/1.jpg",
+    "title": "Serie VA",
+    "q_max": "15000 m³/h",
+    "q_max_gpm": "66000 GPM",
+    "h_max": "15 m",
+    "h_max_ft": "49 Ft"
+  },
+  {
+    "image": "images/verticalPumps/2.jpg",
+    "title": "Serie VB",
+    "q_max": "12000 m³/h",
+    "q_max_gpm": "52800 GPM",
+    "h_max": "18 m",
+    "h_max_ft": "59 Ft"
+  }
+]

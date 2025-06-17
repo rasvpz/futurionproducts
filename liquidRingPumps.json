@@ -1,0 +1,35 @@
+[
+  {
+    "product": "Liquid Ring Pumps",
+    "version": "monoblock and lantern version",
+    "specifications": {
+      "Flowrate": "from 5 to 475 m³/h",
+      "Vacuum": "down to 33 mbar",
+      "Pressure": "up to 2 bar g.",
+      "Installed_power": "0.75 to 15 kW"
+    },
+    "image": "images/LiquidRingPumps/1.jpg"
+  },
+  {
+    "product": "AVA Single stage",
+    "version": "bareshaft version",
+    "specifications": {
+      "Flowrate": "from 400 to 45,000 m³/h",
+      "Vacuum": "down to 33 mbar or to 180 mbar",
+      "Pressure": "up to 2 bar g.",
+      "Installed_power": "15 to 1,000 kW"
+    },
+    "image": "images/LiquidRingPumps/2.jpg"
+  },
+  {
+    "product": "AVD - AVDL Two stage",
+    "version": "bareshaft and lantern version",
+    "specifications": {
+      "Flowrate": "from 50 to 1,800 m³/h",
+      "Vacuum": "down to 33 mbar",
+      "Installed_power": "3.0 to 55.0 kW",
+      "Pressure": "80 dBA max."
+    },
+    "image": "images/LiquidRingPumps/3.jpg"
+  }
+]

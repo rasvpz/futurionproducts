@@ -1,0 +1,29 @@
+[
+  {
+    "product": "AQUAPACK",
+    "description": "AQUAPACK units are standard pre-engineered liquid ring vacuum pump package systems designed by ASCO VACUUM to operate with total service liquid recirculation...",
+    "specifications": {
+      "Flowrate": "from 5 to 1,800 m³/h",
+      "Vacuum": "down to 33 mbar"
+    },
+    "image": "images/heavyDuty/1.jpg"
+  },
+  {
+    "product": "AVA606",
+    "description": "Besides the various standard liquid ring pump series...",
+    "specifications": {
+      "Flowrate": "Designed to meet Off-shore requirements",
+      "Vacuum": " "
+    },
+    "image": "images/heavyDuty/2.jpg"
+  },
+  {
+    "product": "AVD10185",
+    "description": " ",
+    "specifications": {
+      "Flowrate": "Made in 316L with special cartridge mechanical seals",
+      "Vacuum": " "
+    },
+    "image": "images/heavyDuty/3.jpg"
+  }
+]

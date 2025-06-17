@@ -1,0 +1,243 @@
+[
+  {
+    "dataId": "01",
+    "name": "DISMANTLING JOINTS",
+    "subtitle": "Double flanged butterfly valves",
+    "description": "DOUBLE FLAGED BUTTERFLY VALVES & DISMANTLING JOINTS High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/1.jpg",
+    "specsHtml": "<b>RANGE:</b><br>PN10 FROM DN150 TO DN2400<br>PN16 FROM DN150 TO DN2400<br>PN25 FROM DN150 TO DN1400<br>PN40 FROM DN150 TO DN1400<br><b>INTERNAL/EXTERNAL SURFACE PROTECTION:</b><br> Outside epoxy coating of blue color RAL 5015 and thickness of 300µm / Inside hard rubber lining <br><b>DESIGN STANDARD:</b><br> EN 593, EN1074-1 and EN1074-2 <br><b>FACE TO FACE:</b> EN 558 Series 14<br><b>FLANGES:</b> EN 1092-2<br><b>TESTS:</b> EN 12266-1<br><b>WORKING TEMPERATURE:</b><br> Min. -10 °C (frost excluded) Max. +70°C"
+  
+  },
+  {
+    "dataId": "02",
+    "name": "GATE VALVES",
+    "subtitle": "Resilient Seated",
+    "description": "RESILIENT SEATED GATE VALVES High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/2.jpg",
+    "specsHtml": "<b>RANGE:</b> FROM DN40 TO DN1000<br><b>NOMINAL PRESSURE:</b> PN10-16<br><b>DESIGN STANDARD:</b> EN 1171, EN 1074-1 and EN 1074-2<br><b>FACE TO FACE:</b> EN 558 Series 14 - Series15<br><b>FLANGES:</b> EN 1092-2<br><b>TESTS:</b> EN 12266-1<br><b>WORKING TEMPERATURE:</b> Min. -10°C (frost excluded) Max. +70°C<br><b>EXTERNAL/INTERNAL SURFACE COATING:</b> FBE coating process with epoxy resin powder of blue color RAL 5015 and thickness of 250µm"
+  },
+  {
+    "dataId": "03",
+    "name": "JOINT RIGID TYPE",
+    "subtitle": "Three Flange Dismatling",
+    "description": "THREE FLANGE DISMANTLING JOINT RIGID TYPE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/3.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+  },
+  {
+    "dataId": "04",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/4.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "05",
+    "name": "AUTOMATIC CONTROL VALVE ",
+    "subtitle": "DIAPHRAGM ACTUATED",
+    "description": "A diaphragm-actuated automatic control valve is a type of flow control device designed to regulate pressure, flow rate, or level in piping systems automatically. It uses a flexible diaphragm as the actuating element, which responds to changes in pressure or signals from pilot controllers, sensors, or other external sources.",
+    "image": "images/products/5.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "06",
+    "name": "GATE VALVE",
+    "subtitle": "METAL SEATED ",
+    "description": "A Metal Seated Gate Valve is an industrial valve designed to control the flow of fluids by lifting or lowering a solid gate (wedge) within a flow passage. Unlike soft-seated valves, this type features metal-to-metal seating surfaces—typically hardened stainless steel or other alloys—making it ideal for high-temperature, high-pressure, and abrasive service conditions.",
+    "image": "images/products/6.jpg",
+    "specsHtml": "<b>RANGE:</b> FROM DN200 TO DN400<br><b>NOMINAL PRESSURE:</b> PN63<br><b>DESIGN STANDARD:</b> EN 12516, EN 1984<br><b>FACE TO FACE:</b> EN 558 Series 26<br><b>FLANGES:</b> EN 92-1<br><b>TESTS:</b> EN 12266-1<br><b>WORKING TEMPERATURE:</b> Min. -10°C (frost excluded) Max. +50°C at 63 bar (Pressure/Temperature rating according to to EN 12516)<br><b>SURFACE PROTECTION:</b> FBE coating process with epoxy resin powder of blue color RAL 5015 and thickness of 250µm."
+
+  },
+  {
+    "dataId": "07",
+    "name": "CENTRIC BUTTERFLY VALVE ",
+    "subtitle": "WAFER TYPE",
+    "description": "A Centric Butterfly Valve – Wafer Type is a compact and lightweight flow control device designed with a centrally-mounted disc and symmetric sealing. The disc rotates around a central axis within the valve body, allowing for efficient on/off or throttling control of fluids.<br>The wafer-type design fits between two pipe flanges and is secured using bolts that run through the flanges and around the valve body. This design is space-saving, easy to install, and suitable for systems where weight and footprint are critical.",
+    "image": "images/products/7.jpg",
+    "specsHtml": "<b>RANGE:</b> FROM DN40 TO DN600<br><b>NOMINAL PRESSURE:</b> PN10-16<br><b>DESIGN STANDARD:</b> EN 593, EN 1074-1 and EN 1074-2<br><b>FACE TO FACE:</b> EN 558 Series 20<br><b>FLANGES:</b> EN 1092-2<br><b>TESTS:</b> EN 12266-1<br><b>TOP FLANGE:</b> ISO 5211<br><b>WORKING TEMPERATURE:</b> Min. -10°C (frost excluded) Max. +80°C (NBR) Max. +120°C (EPDM)<br><b>EXTERNAL SURFACE PROTECTION:</b> FBE coating process with epoxy resin powder of blue color RAL 5015 and thickness of 250µm."
+
+  },
+  {
+    "dataId": "08",
+    "name": "CENTRIC BUTTERFLY VALVE ",
+    "subtitle": "LUG TYPE  ",
+    "description": "A Centric Butterfly Valve – Lug Type is a versatile flow control device featuring a centrally positioned disc that rotates within the flow path to regulate or isolate fluid flow. Designed with threaded lugs on the valve body, this type allows the valve to be bolted directly to pipe flanges, enabling easy installation and end-of-line service without affecting the entire piping system.<br>The lug-type design provides rigid pipe alignment and allows one-side disassembly, making it ideal for systems that may require frequent maintenance or isolation. The concentric design ensures uniform sealing pressure, with the disc aligned at the center of the seat for effective bidirectional sealing.",
+    "image": "images/products/8.jpg",
+    "specsHtml": "<b>RANGE:</b> FROM DN40 TO DN600<br><b>NOMINAL PRESSURE:</b> PN10-16<br><b>DESIGN STANDARD:</b> EN 593, EN 1074-1 and EN 1074-2<br><b>FACE TO FACE:</b> EN 558 Series 20<br><b>FLANGES:</b> EN 1092-2<br><b>TESTS:</b> EN 12266-1<br><b>TOP FLANGE:</b> ISO 5211<br><b>WORKING TEMPERATURE:</b> Min. -10°C (frost excluded) Max. +80°C (NBR) Max. +120°C (EPDM)<br><b>EXTERNAL SURFACE PROTECTION:</b> FBE coating process with epoxy resin powder of blue color RAL 5015 and thickness of 250µm.<br>"
+
+  },
+  {
+    "dataId": "09 ",
+    "name": "CENTRIC BUTTERFLY VALVE ",
+    "subtitle": "U SECTION TYPE ",
+    "description": "The Centric Butterfly Valve – U Section Type is a resilient-seated valve designed for efficient fluid control in pipelines. It features a centrally mounted disc aligned with the centerline of both the pipe and the valve body, ensuring low torque operation and reliable sealing.<br>The U-section body design provides enhanced structural integrity and is ideal for end-of-line applications or systems requiring easy maintenance and replacement. It allows for direct mounting into pipelines without the need for additional support, making it suitable for both light and heavy-duty applications.",
+    "image": "images/products/9.jpg",
+    "specsHtml": "<b>RANGE:</b> FROM DN300 TO DN1200<br><b>NOMINAL PRESSURE:</b> PN10 AND PN16<br><b>DESIGN STANDARD:</b> EN 593, EN 1074-1 and EN 1074-2<br><b>FACE TO FACE:</b> EN 558 Series 20<br><b>FLANGES:</b> EN 1092-2<br><b>TESTS:</b> EN 12266-1<br><b>TOP FLANGE:</b> ISO 5211<br><b>WORKING TEMPERATURE:</b> Min. -10°C (frost excluded) Max. +70°C (NBR) Max. +90°C (EPDM)<br><b>EXTERNAL SURFACE PROTECTION:</b> FBE coating process with epoxy resin powder of blue color RAL 5015 and thickness of 250µm."
+
+  },
+  {
+    "dataId": "10",
+    "name": "SWING CHECK VALVE ",
+    "subtitle": "RUBBER TYPE",
+    "description": "A Swing Check Valve with rubber lining uses a rubber-faced disc that swings open with forward flow and closes to prevent backflow. It provides silent, non-slam operation, ideal for wastewater, stormwater, and low-pressure applications, offering tight sealing and corrosion resistance.",
+    "image": "images/products/10.jpg",
+    "specsHtml": "<b>RANGE:</b> FROM DN250 TO DN600<br><b>NOMINAL PRESSURE:</b> PN10 and PN16<br><b>DESIGN STANDARD:</b> EN 16767<br><b>FACE TO FACE:</b> EN 558 Series 48<br><b>FLANGES:</b> EN 1092-2<br><b>TESTS:</b> EN 12266-1<br><b>WORKING TEMPERATURE:</b> Max. +80°C<br><b>BACKPRESSURE:</b> Min. 0,5 bar <br><b>MINIMUM FLOW VELOCITY:</b> 1,5 m/s<br><b>EXTERNAL/INTERNAL SURFACE COATING:</b> FBE coating process with epoxy resin powder of blue color RAL 5017 and thickness of 250µm.<br><b>REMARK:</b> For horizontal installation"
+
+  },
+  {
+    "dataId": "11",
+    "name": "BALL CHECK VALVE",
+    "subtitle": "VALVE",
+    "description": "This valve uses a rubber-coated or metal ball that moves freely inside the valve body to block reverse flow. It is self-cleaning, simple in design, and suitable for slurry, viscous fluids, and sewage systems due to its low maintenance and reliable sealing.",
+    "image": "images/products/11.jpg",
+    "specsHtml": "<b>RANGE:</b> FROM DN350 TO DN500<br><b>NOMINAL PRESSURE:</b> PN10 and PN16<br><b>DESIGN STANDARD:</b> EN 16767<br><b>FACE TO FACE:</b> EN 558 Series 48<br><b>FLANGES:</b> EN 1092-2<br><b>TESTS:</b> EN 12266-1<br><b>WORKING TEMPERATURE:</b> Max. +70°C<br><b>BACKPRESSURE:</b> Min. 0,3/0,5 bar<br><b>EXTERNAL/INTERNAL SURFACE COATING:</b> FBE coating process with epoxy resin powder of blue colour RAL 5017 and thickness of 250µm."
+
+  },
+  {
+    "dataId": "12",
+    "name": "SINGLE FLAP CHECK VALVE ",
+    "subtitle": "WAFER TYPE",
+    "description": "Compact and lightweight, this valve features a single disc (flap) that opens with forward flow and closes quickly to prevent backflow. The wafer design fits between flanges, making it ideal for space-saving installations in HVAC, water, and process systems.",
+    "image": "images/products/12.jpg",
+    "specsHtml": "<b>RANGE:</b> FROM DN50 TO DN400<br><b>NOMINAL PRESSURE:</b> PN10 and PN16<br><b>DESIGN STANDARD:</b> EN 16767<br><b>TESTS:</b> EN 12266-1<br><b>WORKING TEMPERATURE:</b> Max. +90°C<br><b>BACKPRESSURE:</b> Min. 0,3 bar<br><b>VALVE INSTALLATION:</b> Only between flanges with dimensions according to EN1092"
+
+  },
+  {
+    "dataId": "13",
+    "name": "DUAL PLATE CHECK VALVE",
+    "subtitle": "WAFER TYPE",
+    "description": "Also known as a double-door check valve, it uses two spring-loaded plates that open with flow and close rapidly upon reversal. The wafer-type body ensures compact installation, and the design minimizes water hammer, making it suitable for oil, gas, and water pipelines.",
+    "image": "images/products/13.jpg",
+    "specsHtml": "<b>RANGE:</b> FROM DN50 TO DN600<br><b>NOMINAL PRESSURE:</b> PN10 and PN16<br><b>FACE TO FACE:</b> EN558 Series 16<br><b>TESTS:</b> EN 12266-1<br><b>WORKING TEMPERATURE:</b> Max. +90°C<br><b>BACKPRESSURE:</b> Min. 0,3 bar<br><b>EXTERNAL/INTERNAL SURFACE COATING:</b> FBE coating process with epoxy resin powder of blue color RAL 5017 and thickness of 200µm."
+
+  },
+  {
+    "dataId": "14",
+    "name": "AXIAL DISC ",
+    "subtitle": "CHECK VALVE ",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/14.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "15",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/15.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "16",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/16.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "control-valve",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/17.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "control-valve",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/18.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "control-valve",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/19.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "control-valve",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/20.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "control-valve",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/21.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "control-valve",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/22.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "control-valve",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/23.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "control-valve",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/24.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "control-valve",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/25.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "control-valve",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/26.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  },
+  {
+    "dataId": "control-valve",
+    "name": "CONTROL VALVE",
+    "subtitle": "Plunger Flow",
+    "description": "PLUNGER FLOW CONTROL VALVE High-performance industrial pumps for various applications, including water supply, wastewater management, and chemical processing.",
+    "image": "images/products/27.jpg",
+    "specsHtml": "RANGE: FROM DN40 TO DN1000<br>DESIGN STANDARD: EN 1171, EN 1074-1..."
+
+  }
+]

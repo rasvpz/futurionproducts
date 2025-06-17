@@ -1,0 +1,76 @@
+[
+  {
+    
+    "title": "SERIE CP",
+    "image": "images/horizontalPumps/horizontalPumps/1.jpg",
+    "q_max": "700 m³/h",
+    "q_max_gpm": "3080 GPM",
+    "h_max": "35 m",
+    "h_max_ft": "115 Ft",
+    "description": "Horizontal Centrifugal Pumps Split Chamber"
+  },
+  {
+
+    "title": "SERIE RN",
+    "image": "images/horizontalPumps/horizontalPumps/2.jpg",
+    "q_max": "700 m³/h",
+    "q_max_gpm": "3080 GPM",
+    "h_max": "35 m",
+    "h_max_ft": "115 Ft",
+    "description": "Horizontal Centrifugal Pumps Normalized Axial Aspiration"
+  },
+  {
+    "title": "SERIE RNI",
+    "image": "images/horizontalPumps/horizontalPumps/3.jpg",
+    "q_max": "700 m³/h",
+    "q_max_gpm": "3080 GPM",
+    "h_max": "35 m",
+    "h_max_ft": "115 Ft",
+    "description": "Multicellular High Pressure Centrifugal Pumps"
+  },
+  {
+    "title": "SERIE APM",
+    "image": "images/horizontalPumps/horizontalPumps/4.jpg",
+    "q_max": "700 m³/h",
+    "q_max_gpm": "3080 GPM",
+    "h_max": "35 m",
+    "h_max_ft": "115 Ft",
+    "description": "Standard High Monoblock Pumps"
+  },
+  {
+    "title": "SERIE CEB",
+    "image": "images/horizontalPumps/horizontalPumps/5.jpg",
+    "q_max": "700 m³/h",
+    "q_max_gpm": "3080 GPM",
+    "h_max": "35 m",
+    "h_max_ft": "115 Ft",
+    "description": "Horizontal Centrifugal Pumps Split Chamber"
+  },
+  {
+    "title": "SERIE RNL",
+    "image": "images/horizontalPumps/horizontalPumps/6.jpg",
+    "q_max": "700 m³/h",
+    "q_max_gpm": "3080 GPM",
+    "h_max": "35 m",
+    "h_max_ft": "115 Ft",
+    "description": "Horizontal Centrifugal Pumps Normalized Axial Aspiration"
+  },
+  {
+    "title": "SERIE GNI",
+    "image": "images/horizontalPumps/horizontalPumps/7.jpg",
+    "q_max": "700 m³/h",
+    "q_max_gpm": "3080 GPM",
+    "h_max": "35 m",
+    "h_max_ft": "115 Ft",
+    "description": "Multicellular High Pressure Centrifugal Pumps"
+  },
+  {
+    "title": "SERIE RFI",
+    "image": "images/horizontalPumps/horizontalPumps/8.jpg",
+    "q_max": "700 m³/h",
+    "q_max_gpm": "3080 GPM",
+    "h_max": "35 m",
+    "h_max_ft": "115 Ft",
+    "description": "Standard High Monoblock Pumps"
+  }
+]
