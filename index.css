@@ -792,3 +792,7 @@ border-bottom: 1px solid #ddd;
     .water-card p {
       color: #555;
     }
+
+    h5{
+      font-size: 24px !important;
+    }
