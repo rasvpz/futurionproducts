@@ -489,11 +489,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = `
           <div class="col-12 col-md-6 col-lg-4 mb-4 product-card" data-name="${product.name}">
             <div class="card shadow-sm rounded-3 h-100">
-              <img src="${product.image}" alt="${product.name}" class="card-img-top">
+              <img src="${product.image}" alt="${product.name} " class="card-img-top">
               <div class="card-body">
                 <p class="text-primary font-weight-semibold mb-1">${product.subtitle}</p>
-                <h5 class="card-title font-weight-bold text-dark">${product.name}</h5>
-                <p class="card-text text-muted small">${product.description}</p>
+                <h4 class="card-title font-weight-bold text-dark text-left">${product.name}</h4>
+                <p class="card-text text-muted small  text-left">${product.description}</p>
                 <a href="#" class="view-details text-primary font-weight-semibold" data-id="${product.dataId}">
                   <button class="view">View&nbsp;Details</button> <i class="bi bi-arrow-right ml-1"></i>
                 </a>
@@ -645,7 +645,7 @@ fetch('vertical.json')
       const container = document.getElementById('hydro-container');
       data.forEach(pump => {
         const col = document.createElement('div');
-        col.className = 'col-12 col-sm-6 col-md-4 col-lg-3 mb-4';
+        col.className = 'col-12 col-sm-6 col-md-4 col-lg-6 mb-4';
 
         col.innerHTML = `
           <div class="card h-100 text-center">
