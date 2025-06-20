@@ -1,6 +1,7 @@
 body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
+      overflow-x: hidden;
     }
 
     /* Navbar */
@@ -136,7 +137,6 @@ body {
   width: 80px;
   height: 4px;
   background-color: #276EF1;
-  /* margin-top: -80px; */
 }
 
 .experience-box {
@@ -237,6 +237,18 @@ body {
     .brand-row {
       margin-bottom: 30px;
     }
+
+    .h1Alihnmrnt{
+      margin: 0px !important;
+      margin-top: 16px !important;
+    }
+
+
+    .weOffer{
+      margin: 0px !important;
+      margin-top: -16px !important;
+    }
+
     @media (max-width: 576px) {
       .brand-logo {
         max-height: 200px;
@@ -441,6 +453,7 @@ footer {
   }
 }
 
+
 .product-header .underline {
   width: 60px;
   height: 4px;
@@ -465,6 +478,7 @@ footer {
   border-radius: 30px;
   outline: none;
   transition: 0.3s ease;
+  margin-top: -12px !important;
 }
 
 .search-bar:focus {
@@ -642,7 +656,16 @@ border-bottom: 1px solid #ddd;
 .right-card {
   flex: 1;
 }
+.gapping {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust spacing as needed */
+}
 
+.cards {
+  width: 300px; /* Set a fixed width if needed */
+}
 
  #liquid {
     display: flex;
@@ -796,3 +819,57 @@ border-bottom: 1px solid #ddd;
     h5{
       font-size: 24px !important;
     }
+    .btn-mrgn{
+      margin-top: 50px !important;
+    }
+    .product-section {
+      display: none;
+      padding: 30px 0;
+    }
+    
+
+  .filter-btn {
+    border-radius: 50px;
+    margin: 5px;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    transition: all 0.3s;
+    font-size: 12px;
+  }
+
+  .filter-btn:hover {
+    background-color: #97999b;
+  }
+
+  .filter-btn.active {
+    background-color: #2a00fb;
+    color: white;
+  }
+  .spaceing{
+    margin-top:-1rem;
+    margin-bottom:8px;
+  }
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .search-bar {
+    width: 90%;
+    max-width: 500px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #1662f6;
+    border-radius: 30px;
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  .search-bar:focus {
+    box-shadow: 0 0 8px #1662f6;
+    border-color: #1662f6;
+  }
+  
+

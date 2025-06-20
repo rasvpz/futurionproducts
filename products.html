@@ -90,51 +90,58 @@
 
 
 
-<section class="product-header text-center">
-  <h1>Engineering Products</h1><br>
-  <p>We offer a wide range of high-quality products for various engineering applications</p>
+
+
+<div class="container mt-4 btn-mrgn text-center">
+  <div class="d-flex flex-wrap justify-content-center align-items-center mt-3 gap-2">
+    <button class="filter-btn active" data-target="engineering"><b>Engineering Products</b></button>
+    <button class="filter-btn" data-target="water"><b>Water Pumps</b></button>
+    <button class="filter-btn" data-target="residual"><b>Residual Pumps</b></button>
+    <button class="filter-btn" data-target="vertical"><b>Vertical Pumps</b></button>
+    <button class="filter-btn" data-target="hydro"><b>Hydro Groups</b></button>
+    <button class="filter-btn" data-target="fireEquipment"><b>Fire Fighting Equipment</b></button>
+    <button class="filter-btn" data-target="vacuum-section"><b>Vacuum Pumps</b></button>
+    <button class="filter-btn" data-target="liquid"><b>Liquid Ring Pumps</b></button>
+    <button class="filter-btn" data-target="heavy-duty"><b>Heavy Duty Systems</b></button>
+    <button class="filter-btn" data-target="LiquidRingVacumPumps"><b>Liquid Ring Vacuum Pumps</b></button>
+    <button class="filter-btn" data-target="WaterSupply"><b>Water Supply</b></button>
+    <button class="filter-btn" data-target="SubmersiblePumps"><b>Submersible Pumps</b></button>
+
+  </div>
+</div>
+
+
+
+<!-- ------------------------------- -->
+<div class="product-section" id="engineering">
+
+<section class="product-header text-center spaceing">
   <div class="underline"></div>
+  <h1 class="h1Alihnmrnt">Engineering Products</h1>
+  <p class="weOffer">We offer a wide range of high-quality products for various engineering applications</p>
+  <div class="search-container mt-4">
+    <input
+      type="text"
+      class="search-bar"
+      placeholder="Search products..."
+      oninput="filterProducts(this.value)"
+    />
+  </div>
 </section>
 
 
 
 <!------------------------------------------------>
-<div class="search-container mt-4">
-  <input
-    type="text"
-    class="search-bar"
-    placeholder="Search products..."
-    oninput="filterProducts(this.value)"
-  />
-</div>
 
-<br />
-<!-- ------------------------------- -->
-<div class="container mt-4">
-  <div class="row" id="productContainer"></div>
-</div>
 
-<!-- Modal -->
-<!-- <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" style="max-width: 650px;">
-    <div class="modal-content rounded-3">
-      <div class="modal-header">
-        <h5 class="modal-title" id="productModalLabel">Product Name</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body d-flex flex-column flex-md-row">
-        <img id="productImage" src="" alt="" class="img-fluid me-md-4 mb-3 mb-md-0" style="max-width: 200px;">
-        <div id="productSpecs" class="text-muted" style="font-size: 0.75rem; width: 12rem; "></div>
-        <div id="productSpecs2" class="text-muted" style="font-size: 0.75rem;"></div>
-        <div id="productSpecs3" class="text-muted"></div>
-        <div id="productSpecs4" class="text-muted"></div>
-        <div id="productSpecs5" class="text-muted"></div>
-        <div id="productSpecs6" class="text-muted"></div>
-        <div id="productSpecs7" class="text-muted"></div>
-      </div>
+  <div class="container mt-4">
+    <div class="row" id="engineeringRow">
+      <!-- Cards will be injected here -->
     </div>
   </div>
-</div> -->
+</div>
+
+
 
 
 <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
@@ -164,16 +171,10 @@
 
 
 <!-- Product Page Content -->
- <br />
- <br />
-<hr>
+ 
 
 <!------------------------------------------------------------>
-<section class="product-header text-center">
-  <h1> Water Pumps and Pressure Groups</h1>
-  <p>We offer a wide range of high-quality Water Pumps and Pressure Pumps</p>
-  <div class="underline"></div>
-</section>
+
 
 
 
@@ -188,13 +189,33 @@
 </div> -->
 
 
-<section class="py-5">
+<section>
   <div class="container">
-    <div class="row py-4" id="product-container">
-      <!-- Cards will be injected here -->
+    <div class="py-4 product-section" id="water">
+      <section class="product-header text-center spaceing">
+        <div class="underline"></div>
+        <h1 class="h1Alihnmrnt">Water Pumps and Pressure Groups</h1>
+        <p class="weOffer">We offer a wide range of high-quality Water Pumps and Pressure Pumps</p>
+         <!-- 🔍 Search Bar -->
+      <div class="search-container mt-4">
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="Search water pumps..."
+          oninput="filterWaterProducts(this.value)"
+        />
+      </div>
+
+      </section>
+
+     
+      <div class="row" id="waterRow">
+        <!-- Product cards will go here -->
+      </div>
     </div>
   </div>
 </section>
+
 
 <!-- Modal -->
 <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
@@ -224,13 +245,28 @@
 <!-- ----------------------------------------------------------- -->
 
 
-<section class="product-header text-center">
-  <h1>  Residual Pumps </h1>
-  <p>Designed for precision and durability, our Residual Pumps efficiently handle leftover fluids in various industrial and commercial applications.</p>
-  <div class="underline"></div>
-</section>
 
- <div class="row" id="pumpCards"></div>
+<div class="container">
+<div class="product-section " id="residual">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">  Residual Pumps </h1>
+    <p class="weOffer">Residual Pumps efficiently manage leftover fluids in industrial and commercial settings with precision and durability.</p>
+    <div class="search-container mt-4">
+      <input
+        type="text"
+        class="search-bar"
+        placeholder="Search residual pumps..."
+        oninput="filterResidualProducts(this.value)"
+      />
+    </div>
+  </section>
+  
+  <div class="row" id="residualRow">
+    <!-- Cards will be injected here -->
+  </div>
+</div>
+</div>
 
 <!-- <section class="py-5">
   <div class="container">
@@ -242,21 +278,22 @@
 
 
 
-<section class="product-header text-center">
-  <h1>  Vertical Pumps </h1>
-  <p>Designed for precision and durability, our Vertical Pumps efficiently handle high-volume fluid movement in deep well and industrial applications.
-
-</p>
-  <div class="underline"></div>
-</section>
 
 
 
-<section class="py-5">
-  <div class="container">
-    
-    <div class="row justify-content-center" id="verticalPumpsContainer">
+
+<section>
+  <div class="container ">
+    <div class="product-section" id="vertical">
+      <section class="product-header text-center spaceing">
+        <div class="underline"></div>
+        <h1 class="h1Alihnmrnt">  Vertical Pumps </h1>
+        <p class="weOffer">Vertical Pumps are built for durability and efficiently move large volumes of fluid in deep well and industrial uses.</p>      
+      </section>
       
+      <div class="row justify-content-center" id="verticalRow">
+        <!-- Product cards will be injected here -->
+      </div>
     </div>
   </div>
 </section>
@@ -265,97 +302,66 @@
 
 
 
-<section class="product-header text-center">
-  <h1>  Hydro Groups </h1>
-  <p>Hydro groups produce electricity using water power. They support clean energy and help protect the environment by reducing carbon emissions.
-
-</p>
-  <div class="underline"></div>
-</section>
 
 
 
-<section class="py-5 text-center">
+
+<section class=" text-center ">
   <div class="container">
-
-    <div class="row" id="hydro-container">
-      <!-- Cards will load here -->
+    <div class="product-section" id="hydro">
+      <section class="product-header text-center spaceing">
+        <div class="underline"></div>
+        <h1 class="h1Alihnmrnt">  Hydro Groups </h1>
+        <p class="weOffer">Hydro groups produce electricity using water power.</p>
+      <div class="search-container mt-4">
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="Search hydro groups..."
+          oninput="filterHydroProducts(this.value)"
+        />
+      </div>
+      </section>
+     
+      <div class="row" id="hydroRow">
+        <!-- Cards will load here -->
+      </div>
     </div>
   </div>
 </section>
 
 
-
-<section class="product-header text-center">
-  <h1>  Fire Fighting Equipment </h1>
-  <p>Reliable and efficient, our Fire Fighting Equipment is designed to ensure safety in emergency situations.
-
-</p>
-  <div class="underline"></div>
-</section>
-<div class="row" id="fireEquipment"></div>
-
-
-
-
-<section class="product-header text-center">
-  <h1>  ASCO VACUUM TECHNOLOGIES – ITALY </h1>
-  <p>ASCO VACUUM is an Italian Company specialized in the design, production and supply of pumps and systems dedicated to air & gas handling.
-
-</p>
-  <div class="underline"></div>
-  <div class="grid-container" id="product-container"></div>
-</section>
-
-<div class="container mt-4" id="vacuum-section"></div>
-
-
-
-
-
-
-<section class="product-header text-center">
-  <h1> LIQUID RING PUMPS </h1>
-  <p>Liquid ring pumps are a type of rotary vacuum pump commonly used to handle wet gases or vapors.
-
-</p>
-  <div class="underline"></div>
-</section>
-<div id="liquid"></div>
-
-
-
-
-<section class="product-header text-center">
-  <h1>AQUAPACK AVM/AVL/AVA SYSTEMS <br>
-    HEAVY DUTY / SPECIAL EXECUTIONS</h1>
-  <p>AQUAPACK units are standard pre-engineered liquid ring vacuum pump package systems designed by ASCO VACUUM to operate with total service liquid recirculation.
-
-</p>
-  <div class="underline"></div>
-</section>
-<div id="heavy-duty"></div>
-
-
-
-
-
-<section class="product-header text-center">
-  <h1>Liquid Ring Vacuum Pumps</h1>
-  <p>Liquid ring vacuum pump systems designed to meet most needs of vacuum of the industry.</p>
-  <div class="underline"></div>
-</section>
-<div id="LiquidRingVacumPumps"></div>
-
-
-
-<section class="product-header text-center">
-  <h1>Water Supply / Circulation Pumps</h1>
-  <p>Teral is one of the leading manufacturers of Pumps and Blowers in the world. Teral develops a wide variety of pump / fan products and high value-added unit products that support high efficiency, energy saving, and low noise. These are also used in factories, large-scale plants and agricultural and livestock industries, contributing not only to efficient production activities, but also to improving the production environment and surrounding environment.</p>
-  <div class="underline"></div>
-</section>
 <div class="container">
-  <div class="row" id="WaterSupply"></div>
+<div class="product-section" id="fireEquipment">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">  Fire Fighting Equipment </h1>
+    <p class="weOffer">Reliable and efficient, our Fire Fighting Equipment is designed to ensure safety in emergency situations.
+  
+  </p>
+    
+  </section>
+  <div class="row" id="fireEquipmentRow">
+    <!-- Product cards go here -->
+  </div>
+</div>
+</div>
+
+
+
+
+
+<div class="container mt-4 product-section" id="vacuum-section">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">  ASCO VACUUM TECHNOLOGIES – ITALY </h1>
+    <p class="weOffer">ASCO VACUUM is an Italian company specializing in pumps and systems for air and gas handling.</p>
+    
+    <!-- <div class="grid-container" id="product-container"></div> -->
+  </section>
+  <div class="row" id="vacuumRow">
+    <!-- Product cards will be injected here -->
+  </div>
 </div>
 
 
@@ -363,14 +369,97 @@
 
 
 
-<section class="product-header text-center">
-  <h1>Submersible Pumps</h1>
-  <p>Submersible pumps are designed to operate while fully submerged in water or other fluids.</p>
-  <div class="underline"></div>
-</section>
- <div class="container py-5">
-    <div class="row" id="SubmersiblePumps"></div>
+
+<div class="product-section" id="liquid">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt"> LIQUID RING PUMPS </h1>
+    <p class="weOffer">Liquid ring pumps are a type of rotary vacuum pump commonly used to handle wet gases or vapors.
+  
+  </p>
+    
+  </section>
+  <div class="row justify-content-center gapping" id="liquidRow">
+    <!-- Cards will be injected here -->
   </div>
+</div>
+
+
+
+
+<div class="product-section" id="heavy-duty">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">AQUAPACK AVM/AVL/AVA SYSTEMS <br>
+      HEAVY DUTY / SPECIAL EXECUTIONS</h1>
+    <p class="weOffer">AQUAPACK units are compact, pre-engineered vacuum systems by ASCO VACUUM that use fully recirculating liquid ring technology.
+  </p>
+    
+  </section>
+  <div class="row justify-content-center gapping" id="heavyDutyRow">
+    <!-- Product cards will be injected here -->
+  </div>
+</div>
+
+
+
+
+
+
+<div class="product-section" id="LiquidRingVacumPumps">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">Liquid Ring Vacuum Pumps</h1>
+    <p class="weOffer">Liquid ring vacuum pump systems designed to meet most needs of vacuum of the industry.</p>
+   
+  </section>
+  <div class="row justify-content-center gapping" id="liquidRingRow">
+    <!-- Cards will be injected here -->
+  </div>
+</div>
+
+
+
+
+<div class="container product-section" id="WaterSupply">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">Water Supply / Circulation Pumps</h1>
+    <p class="weOffer">Teral is one of the leading manufacturers of Pumps and Blowers in the world.</p>
+    
+    <div class="search-container mt-4">
+      <input
+        type="text"
+        class="search-bar"
+        placeholder="Search pumps..."
+        oninput="filterWaterSupply(this.value)"
+      />
+    </div>
+  </section>
+ 
+  <div class="row" id="waterSupplyRow">
+    <!-- Cards will be injected here -->
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="container product-section" id="SubmersiblePumps">
+  <section class="product-header text-center spaceing">
+    <div class="underline"></div>
+    <h1 class="h1Alihnmrnt">Submersible Pumps</h1>
+    <p class="weOffer">Submersible pumps are designed to operate while fully submerged in water or other fluids.</p>
+    
+  </section>
+  
+  <div class="row" id="submersiblePumpsRow">
+    <!-- Product cards go here -->
+  </div>
+</div>
 
 
 
@@ -480,7 +569,7 @@ document.addEventListener('DOMContentLoaded', () => {
   fetch('mainproduct.json')
     .then(response => response.json())
     .then(products => {
-      const container = document.getElementById("productContainer");
+      const container = document.getElementById("engineeringRow");
 
       products.forEach(product => {
         // Store for quick access later
@@ -531,10 +620,10 @@ document.addEventListener('DOMContentLoaded', () => {
   fetch('product.json')
     .then(response => response.json())
     .then(products => {
-      const container = document.getElementById('product-container');
+      const container = document.getElementById('waterRow');
       products.forEach((product, index) => {
         const card = `
-          <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <div class="col-12 col-md-6 col-lg-3 mb-4 product-card" data-name="${product.title}">
             <div class="card h-100">
               <img src="${product.image}" class="card-img-top" alt="${product.title}">
               <div class="card-body">
@@ -570,14 +659,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
 <script>
   fetch('pumbs.json')
     .then(response => response.json())
     .then(data => {
-      const container = document.getElementById('pumpCards');
+      const container = document.getElementById('residualRow');
       data.forEach((pump, index) => {
         const col = document.createElement('div');
-        col.className = 'col-12 col-sm-6 col-lg-3 mb-4';
+        col.className = 'col-12 col-sm-6 col-lg-3 mb-4 product-card';
+        col.setAttribute('data-name', pump.name);
 
         col.innerHTML = `
           <div class="card h-100">
@@ -585,7 +676,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="card-body">
               <h5 class="card-title">${pump.name}</h5>
               <p class="card-text text-muted">${pump.subhead}</p>
-              
             </div>
           </div>
         `;
@@ -602,6 +692,22 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 </script>
 
+<script>
+  function filterResidualProducts(query) {
+    const keyword = query.toLowerCase();
+    const cards = document.querySelectorAll("#residualRow .product-card");
+
+    cards.forEach(card => {
+      const name = card.getAttribute("data-name").toLowerCase();
+      if (name.includes(keyword)) {
+        card.style.display = "block";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  }
+</script>
+
 
 
 
@@ -609,7 +715,7 @@ document.addEventListener('DOMContentLoaded', () => {
 fetch('vertical.json')
   .then(response => response.json())
   .then(data => {
-    const container = document.getElementById('verticalPumpsContainer');
+    const container = document.getElementById('verticalRow');
     data.forEach(pump => {
       const card = `
         <div class="col-12 col-md-6 col-lg-4 mb-4 d-flex align-items-stretch">
@@ -642,27 +748,42 @@ fetch('vertical.json')
   fetch('hydro.json')
     .then(response => response.json())
     .then(data => {
-      const container = document.getElementById('hydro-container');
+      const container = document.getElementById('hydroRow');
       data.forEach(pump => {
-        const col = document.createElement('div');
-        col.className = 'col-12 col-sm-6 col-md-4 col-lg-6 mb-4';
+  const col = document.createElement('div');
+  col.className = 'col-12 col-sm-6 col-md-4 col-lg-6 mb-4 product-card';
+  col.setAttribute('data-name', pump.title);
 
-        col.innerHTML = `
-          <div class="card h-100 text-center">
-            <img src="${pump.image}" class="card-img-top" alt="${pump.title}">
-            <div class="card-body">
-              <h5 class="card-title">${pump.title}</h5>
-              <p class="card-text text-muted small">${pump.description}</p>
-            </div>
-          </div>
-        `;
-        container.appendChild(col);
-      });
+  col.innerHTML = `
+    <div class="card h-100 text-center">
+      <img src="${pump.image}" class="card-img-top" alt="${pump.title}">
+      <div class="card-body">
+        <h5 class="card-title">${pump.title}</h5>
+        <p class="card-text text-muted small">${pump.description}</p>
+      </div>
+    </div>
+  `;
+  container.appendChild(col);
+});
     })
     .catch(error => {
       console.error('Error loading JSON:', error);
     });
 </script>
+<script>
+  function filterHydroProducts(query) {
+    const keyword = query.toLowerCase();
+    const cards = document.querySelectorAll('#hydroRow .product-card');
+
+    cards.forEach(card => {
+      const name = card.getAttribute('data-name').toLowerCase();
+      card.style.display = name.includes(keyword) ? 'block' : 'none';
+    });
+  }
+</script>
+
+
+
 <script>
   $(document).ready(function() {
     $.getJSON("fire.json", function(data) {
@@ -680,7 +801,7 @@ fetch('vertical.json')
           </div>
         `;
       });
-      $("#fireEquipment").html(output);
+      $("#fireEquipmentRow").html(output);
     });
   });
 </script>
@@ -729,7 +850,7 @@ fetch('vertical.json')
       ]
     };
 
-    const container = document.getElementById("vacuum-section");
+    const container = document.getElementById("vacuumRow");
     const sectionHeader = `<h2 class="mb-4">${vacuumData.section}</h2>`;
     container.innerHTML = sectionHeader;
 
@@ -789,7 +910,7 @@ fetch('vertical.json')
   fetch('liquidRingPumps.json')
   .then(response => response.json())
   .then(data => {
-    const container = document.getElementById('liquid');
+    const container = document.getElementById('liquidRow');
     data.forEach(item => {
       const card = document.createElement('div');
       card.className = 'cards';
@@ -814,7 +935,7 @@ fetch('vertical.json')
   fetch('heavyDuty.json')
   .then(response => response.json())
   .then(data => {
-    const container = document.getElementById('heavy-duty');
+    const container = document.getElementById('heavyDutyRow');
 
     data.forEach(item => {
       const card = document.createElement('div');
@@ -849,7 +970,7 @@ fetch('vertical.json')
         return response.json();
       })
       .then(data => {
-        const container = document.getElementById('LiquidRingVacumPumps');
+        const container = document.getElementById('liquidRingRow');
         container.innerHTML = ''; // ensure it's empty
 
         data.forEach(item => {
@@ -896,23 +1017,24 @@ fetch('vertical.json')
       return response.json();
     })
     .then(data => {
-      const container = document.getElementById('WaterSupply');
+      const container = document.getElementById('waterSupplyRow');
       container.innerHTML = '';
 
       data.forEach(item => {
-        const col = document.createElement('div');
-        col.className = 'col-lg-4 col-md-6 col-sm-12 mb-4';
+  const col = document.createElement('div');
+  col.className = 'col-lg-4 col-md-6 col-sm-12 mb-4 product-card';
+  col.setAttribute('data-name', item.name);
 
-        col.innerHTML = `
-          <div class="water-card p-3">
-            <img src="${item.image}" alt="${item.name}" />
-            <h5 class="mt-3">${item.name}</h5>
-            <p>${item.sepcifics}</p>
-          </div>
-        `;
+  col.innerHTML = `
+    <div class="water-card p-3">
+      <img src="${item.image}" alt="${item.name}" />
+      <h6 class="mt-3">${item.name}</h6>
+      <p>${item.sepcifics}</p>
+    </div>
+  `;
 
-        container.appendChild(col);
-      });
+  container.appendChild(col);
+});
     })
     .catch(err => {
       console.error('Error loading JSON:', err);
@@ -920,6 +1042,18 @@ fetch('vertical.json')
         '<div class="col-12 text-danger">Failed to load content.</div>';
     });
 </script>
+<script>
+  function filterWaterSupply(query) {
+    const keyword = query.toLowerCase();
+    const cards = document.querySelectorAll('#waterSupplyRow .product-card');
+
+    cards.forEach(card => {
+      const name = card.getAttribute('data-name').toLowerCase();
+      card.style.display = name.includes(keyword) ? 'block' : 'none';
+    });
+  }
+</script>
+
 
 
  <script>
@@ -929,7 +1063,7 @@ fetch('vertical.json')
         return res.json();
       })
       .then(data => {
-        const container = document.getElementById('SubmersiblePumps');
+        const container = document.getElementById('submersiblePumpsRow');
 
         data.forEach(item => {
           const col = document.createElement('div');
@@ -939,7 +1073,7 @@ fetch('vertical.json')
             <div class="card shadow-sm">
             <img src="${item.image}" class="card-img-top img-fluid" alt="${item.title}" style="height: 100%; width: 100%;">
               <div class="card-body">
-                <h5 class="card-title">${item.title}</h5>
+                <h6 class="card-title">${item.title}</h6>
                 <p class="card-text">${item.description}</p>
               </div>
             </div>
@@ -954,8 +1088,51 @@ fetch('vertical.json')
       });
   </script>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".filter-btn");
+  const sections = document.querySelectorAll(".product-section");
+
+  function showSection(targetId) {
+    sections.forEach(section => {
+      section.style.display = section.id === targetId ? "block" : "none";
+    });
+  }
+
+  buttons.forEach(button => {
+    button.addEventListener("click", function () {
+      buttons.forEach(btn => btn.classList.remove("active"));
+      this.classList.add("active");
+
+      const target = this.getAttribute("data-target");
+      showSection(target);
+    });
+  });
+
+  const defaultBtn = document.querySelector(".filter-btn.active");
+  if (defaultBtn) {
+    showSection(defaultBtn.getAttribute("data-target"));
+  }
+});
+
+</script>
 
 
+<script>
+  function filterWaterProducts(query) {
+    const keyword = query.toLowerCase();
+    const cards = document.querySelectorAll("#waterRow .product-card");
+
+    cards.forEach(card => {
+      const name = card.getAttribute("data-name").toLowerCase();
+      if (name.includes(keyword)) {
+        card.style.display = "block";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  }
+</script>
 
 
 
