@@ -9,6 +9,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="servive.css">
+
 
 <style>
   .gradient-bg {
@@ -40,6 +45,13 @@
   .feature-icon {
     color: #2563eb;
   }
+  .active{
+    background-color: blue;
+    color:white;
+  }
+  .badge-custom{
+    font-size: 16px;
+  }
 </style>
 
 </head>
@@ -64,7 +76,7 @@
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-          <a class="dropdown-item" href="service.html">Repair</a>
+            <a class="dropdown-item" href="service.html">Repairing & Rewinding</a>
         </div>
       </li>
 
@@ -112,26 +124,28 @@
 <!-- Services Section -->
 <section class="py-5">
   <div class="container">
-    <div class="text-center mb-5">
-      <span class="badge badge-custom py-2 px-3">Our Services</span>
-      <h2 class="fw-bold display-5 mt-3">Comprehensive Service Solutions</h2>
+    <div class="text-center mb-5 ">
+      <span class="badge badge-custom py-2 px-3  active mb-4" style="cursor: pointer;" onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">Rewinding Services</span>
+      <span class="badge badge-custom py-2 px-3 mb-4">Transformer Repair</span>
+      <span class="badge badge-custom py-2 px-3 mb-4">Generator Rewinding</span>
+      <span class="badge badge-custom py-2 px-3 mb-4">Pump Repair</span>
+      <span class="badge badge-custom py-2 px-3 mb-4">Motor Repair</span>
+       <h2 class="text-center font-weight-bold text-dark-blue mt-4">Our Repairing Branches</h2>
       <p class="text-muted mx-auto" style="max-width: 700px;">From concept to execution, we provide end-to-end digital services that drive measurable results.</p>
     </div>
 
     <div class="row">
-      <div class="col-md-4 mb-4">
+      <div class="col-md-4 mb-4" onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
         <div class="card service-card h-100">
           <img src="https://www.ghaimagroup.com/imgs/win4.jpg" class="card-img-top" alt="Web Development">
           <div class="card-body">
-            <h5 class="fw-bold text-primary">Diagnostics & Overhaul</h5>
+            <h5 class="text-primary" style="color:rgb(3, 3, 255) !important">Rewinding Service</h5>
             <ul class="list-unstyled">
-              <li><i class="bi bi-check-circle feature-icon"></i> 
-            It is important to check the equipment to identify the issue thoroughly. Our specialists will conduct a comprehensive overhaul before starting with the electric motor rewinding steps.
-            </li>
+              <li><i class="bi bi-check-circle feature-icon"></i> Whether your industry uses a low-power or high-power electric motor, a synchronous or an AC induction motor, they all need rewinding after a while... </li>
             </ul>
                 <div class="d-flex justify-content-between align-items-center">
                 <span class="fw-bold text-primary"></span>
-                <a href="#" class="btn btn-primary btn-sm">
+                <a href="#rewindingService" class="btn btn-primary btn-sm">
                     <i class="bi bi-arrow-down"></i>
                 </a>
                 </div>
@@ -141,13 +155,11 @@
 
       <div class="col-md-4 mb-4">
         <div class="card service-card h-100">
-          <img src="https://www.ghaimagroup.com/images/rewinding.jpg" class="card-img-top" alt="Web Development">
+          <img src="https://www.ghaimagroup.com/imgs/power-transformer-repair-services1.jpg" height="284px" class="card-img-top" alt="Web Development">
           <div class="card-body">
-            <h5 class="fw-bold text-primary">Disassembly</h5>
+            <h5 class="text-primary"  style="color:rgb(3, 3, 255) !important">Power Transformer Repair</h5>
             <ul class="list-unstyled">
-              <li><i class="bi bi-check-circle feature-icon"></i> 
-                After gathering vital data on the condition of the windings, the damaged motor windings are detached from the inside core of the machine in our machine shop. </li>
-            </ul>
+              <li><i class="bi bi-check-circle feature-icon"></i> Transformers are a vital component in any electrical power system, converting electricity from one voltage level to another. A malfunctioning transformer can... </ul>
                 <div class="d-flex justify-content-between align-items-center">
                 <span class="fw-bold text-primary"></span>
                 <a href="#" class="btn btn-primary btn-sm">
@@ -160,15 +172,14 @@
 
         <div class="col-md-4 mb-4">
         <div class="card service-card h-100">
-          <img src="https://www.ghaimagroup.com/imgs/win3.jpg" class="card-img-top" alt="Web Development">
+          <img src="https://www.ghaimagroup.com/imgs/professional-generator-rewinding-repair-services1.jpg" height="284" class="card-img-top" alt="Web Development">
           <div class="card-body">
-            <h5 class="fw-bold text-primary">Making of New Coil</h5>
+            <h5 class="text-primary"  style="color:rgb(3, 3, 255) !important"> AC & DC Generator Repair</h5>
             <ul class="list-unstyled">
               <li><i class="bi bi-check-circle feature-icon"></i> 
-              What follows the removal of coils is the making of new wire coils. The key attributes of the process include layering, wire tension, and keeping track of the number of turns on the coil.  </ul>
-                <div class="d-flex justify-content-between align-items-center">
+             Our experienced technicians are equipped with the knowledge and expertise to handle a wide range of AC and DC generator repair needs, including fault-finding...<div class="d-flex justify-content-between align-items-center">
                 <span class="fw-bold text-primary"></span>
-                <a href="#" class="btn btn-primary btn-sm">
+                <a href="#" class="btn btn-primary btn-sm" >
                     <i class="bi bi-arrow-down"></i>
                 </a>
                 </div>
@@ -178,12 +189,12 @@
 
         <div class="col-md-4 mb-4">
         <div class="card service-card h-100">
-          <img src="https://www.ghaimagroup.com/imgs/rewind4.jpg" class="card-img-top" alt="Web Development">
+          <img src="https://www.ghaimagroup.com/imgs/types-of-industrial-pumps-we-repair1.jpg" height="284px" class="card-img-top" alt="Web Development">
           <div class="card-body">
-            <h5 class="fw-bold text-primary">Insertion</h5>
+            <h5 class="text-primary"  style="color:rgb(3, 3, 255) !important">Submersible Pump Repairs</h5>
             <ul class="list-unstyled">
               <li><i class="bi bi-check-circle feature-icon"></i> 
-           Once the coils are done, they are fabricated back into the stator slots and connected.
+           we provide the exclusive reverse engineering service for the complete pump or a particular section. We also offer mechanical...
             <div class="d-flex justify-content-between align-items-center">
                 <span class="fw-bold text-primary"></span>
                 <a href="#" class="btn btn-primary btn-sm">
@@ -196,12 +207,12 @@
 
         <div class="col-md-4 mb-4">
         <div class="card service-card h-100">
-          <img src="https://www.ghaimagroup.com/imgs/win1.jpg" height="200px" class="card-img-top" alt="Web Development">
+          <img src="https://www.ghaimagroup.com/imgs/Our%20Electric%20Motor%20Repair%20Services%20Include2.jpg" height="284px" class="card-img-top" alt="Web Development">
           <div class="card-body">
-            <h5 class="fw-bold text-primary">Testing</h5>
+            <h5 class="text-primary"  style="color:rgb(3, 3, 255) !important">Electric Motor Repair</h5>
             <ul class="list-unstyled">
               <li><i class="bi bi-check-circle feature-icon"></i> 
-           A few tests are implemented, such as a static, polarity index test, and resistance test, to guarantee the quality and mechanical integrity of the coils after the maintenance work. Afterward, the coils are insulated.
+           A few tests are implemented, such as a static, polarity index test, and resistance test, to guarantee the quality and mechanical integrity of the coils after...
             <div class="d-flex justify-content-between align-items-center">
                 <span class="fw-bold text-primary"></span>
                 <a href="#" class="btn btn-primary btn-sm">
@@ -212,13 +223,13 @@
         </div>
       </div>
 <div class="col-md-4 mb-4">
-<section class="py-5 text-center text-white" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+<section class="py-5 text-center text-white h-100" style="background: linear-gradient(to right, #2563eb, #1e40af);">
   <div class="container">
-    <h4 class="display-6 font-weight-bold mb-4">
+    <h4 class="display-5 font-weight-bold mb-4">
       Ready to Transform Your Business?
     </h4>
     <p class="lead mb-5 mx-auto" style="max-width: 600px; color: #dbeafe;">
-      Let's discuss your project and create a custom solution that drives results...
+      Let's discuss your project and create a custom solution that drives results can save a lot of time and money.
     </p>
     <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
       <a href="#" class="btn btn-light btn-lg text-primary font-weight-bold px-4 py-2 mb-3 mb-sm-0 mr-sm-3">
@@ -234,12 +245,14 @@
 
   </div>
 </section>
-<section class="py-5 bg-white">
+<section class="py-5 bg-white" id="rewindingService">
   <div class="container">
     <div class="row align-items-center">
       
       <!-- Left Column: Text -->
       <div class="col-lg-6 mb-4 mb-lg-0">
+      <h2 class="fw-semi-bold display-5 mt-3"><b>Electric Motor Rewinding</b></h2>
+
         <h2 class="display-4 font-weight-bold text-primary mb-4">
           Experience Excellence in Every Project
         </h2>
@@ -276,7 +289,168 @@
 </section>
 
 <!-- More Sections: Why Choose Us, CTA, etc. should follow a similar Bootstrap layout -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Column 1: Ghaima Group Expertise -->
+      <div class="col-md-6 mb-4">
+        <div class="p-4 shadow rounded h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+          <h4 class="text-primary font-weight-bold mb-3">Futurions's Expertise in Motor Rewinding</h4>
+          <p class="text-muted">
+            Electric motors are an integral part of various industries. AC/ DC motor is an essential component of machines from household items to industrial-level heavy equipment, right from water pumps, generators, chiller compressors, and refrigerators to conveyor belts and pumps in machine plants. At Futurion Group, we serve many sectors, including marine, oil & gas, and power generation, that use all kinds of electromechanical equipment.
+          </p>
+          <p class="text-muted">
+            The cost of replacing the electric motor can be quite high. However, the DC & AC motor rewinding service can cut the cost in half. Our exceptional motor rewind service will have your machine up and running in no time and at the lowest possible cost. Motors can suffer many other damages that may include the destruction of the bearing, the grazing of the rotor on the stator, or the jamming of the shaft. Besides motor rewinding, we also offer an electric motor repair service at Futurion Group.
+          </p>
+        </div>
+      </div>
 
+      <!-- Column 2: Reasons for Winding Failure -->
+      <div class="col-md-6 mb-4">
+        <div class="p-4 shadow rounded h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+          <h4 class="text-primary font-weight-bold mb-3">Reasons for Winding Failure</h4>
+          <p class="text-muted">
+            Whether your industry uses a low-power or high-power electric motor, a synchronous or an AC induction motor, they all need rewinding after a while. The electric motor rewinding is carried out in accordance with the requirements of the regulations for each type of installation as specified by the manufacturer. For low-voltage machines, this period can be 5–7 years; for high-voltage models, the need arises much less often after 20–25 years.
+          </p>
+          <p class="text-muted">
+            When a motor needs unplanned maintenance, in most cases, the coils are fused, earthed, or completely smashed. One of the most common causes of motor failure is the failure or aging of the winding insulation, exposed to heat, vibration, moisture, oil, and dust. Thermal damage, overload, and electrical jumps can deteriorate motors significantly.
+          </p>
+          <p class="text-muted">
+            Some industries may want to customize a motor to their own specifications. It is possible to rewind a motor and alter the performance according to their requirements.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- our services -->
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-5 " id="services">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">Our Services</h2>
+    <p class="text-center text-muted mb-4">We offer modern technology and environmentally friendly products to most private, industrial and <br /> governmental sectors</p>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Diagnostics & Overhaul</h4>
+          <p class="text-muted small">It is important to check the equipment to identify the issue thoroughly. Our specialists will conduct a comprehensive overhaul before starting with the electric motor rewinding steps.</p>
+          <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-bolt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Disassembly</h4>
+          <p class="text-muted small">After gathering vital data on the condition of the windings, the damaged motor windings are detached from the inside core of the machine in our machine shop.</p>
+          <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Making of New Coil</h4>
+          <p class="text-muted small">What follows the removal of coils is the making of new wire coils. The key attributes of the process include layering, wire tension, and keeping track of the number of turns on the coil.</p>
+          <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Insertion</h4>
+          <p class="text-muted small">Once the coils are done, they are fabricated back into the stator slots and connected.</p>
+          <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Testing</h4>
+          <p class="text-muted small">A few tests are implemented, such as a static, polarity index test, and resistance test, to guarantee the quality and mechanical integrity of the coils after the maintenance work.</p>
+          <a href="#" class="learn-more-link">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+        </div>
+      </div>
+
+      <!-- Custom Solutions CTA -->
+      <div class="col-md-6 col-lg-4 mb-4" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-blue text-white d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="font-weight-bold">Need Custom Solutions?</h5>
+            <p class="small">Contact our team for specialized solutions tailored to your unique requirements.</p>
+          </div>
+          <a href="#contact" class="btn btn-light font-weight-bold mt-3">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+
+
+
+
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
