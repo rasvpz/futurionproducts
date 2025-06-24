@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="servive.css">
+
+
+<style>
+  .gradient-bg {
+    background: linear-gradient(to right, #2563eb, #1e40af);
+    color:white !important;
+    font-weight: bold;
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #bfdbfe, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .service-card {
+    transition: all 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  }
+
+  .badge-custom {
+    background-color: #bfdbfe;
+    color: #1e3a8a;
+  }
+
+  .feature-icon {
+    color: #2563eb;
+  }
+  .active{
+    background-color: blue;
+    color:white;
+  }
+  .badge-custom{
+    font-size: 16px;
+  }
+</style>
+
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark gradient-bg">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+
+      <!-- Services Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+            <a class="dropdown-item" href="service.html">Repairing & Rewinding</a>
+            <a class="dropdown-item" href="inhouse.html">in House Mechine Shop</a>
+        </div>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- Hero Section -->
+<section class="text-white text-center gradient-bg py-5 position-relative">
+  <div class="container">
+    <h1 class="display-4 fw-bold">In House <span class="gradient-text d-block">Mechine Shop</span></h1>
+    <p class="lead mt-3 mb-4"> We are experts in three-phase electric motor overhaul, single-phase motor repair, maintenance, and rewinding.</p>
+    <div class="d-flex justify-content-center flex-wrap gap-3">
+      <a href="#" class="btn btn-light text-primary px-4 py-2">Explore Services <i class="bi bi-arrow-right ms-2"></i></a>
+      <a href="#" class="btn btn-outline-light px-4 py-2">View Portfolio</a>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">500+</h2>
+        <p>Projects Completed</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">98%</h2>
+        <p>Client Satisfaction</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">50+</h2>
+        <p>Team Members</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">24/7</h2>
+        <p>Support Available</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="py-0">
+  <div class="container">
+    <div class="text-center mb-5 ">
+       <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Industrial Machine Overhaul Services and Motor Repair Shop</h2>
+      <p class="text-muted mx-auto" style="max-width: 700px;">Our in-house machine shop is fully equipped to manufacture new shafts, restore damaged ones, and repair housing components with precision. We ensure high-quality standards through meticulous machine work and dynamic balancing to maintain consistent performance and efficiency.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 mb-4" onclick="document.getElementById('rewindingService').scrollIntoView({ behavior: 'smooth' });">
+        <div class="card service-card">
+          <img src="https://www.ghaimagroup.com/imgs/electric%20motor%20repair%20services.jpg" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <img src="https://www.ghaimagroup.com/imgs/single%20phase%20motor%20repair.jpg" height="284px" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card service-card">
+          <img src="https://www.ghaimagroup.com/imgs/pumps%20mechanical%20repair%20dubai.jpg" height="284" class="card-img-top" alt="Web Development">
+
+        </div>
+      </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-left: 5px solid #276ef1;">
+          
+            <h2 class="display-6 text-primary p-4"><b>At FUTURION</b></h2>
+            <p class="px-4 lead" style="font-size: 18px;">
+            We deliver reliable and innovative solutions across a wide range of 
+            electromechanical services. Our skilled team specializes in the overhaul and repair 
+            of three-phase and single-phase electric motors, including complete maintenance and 
+            rewinding solutions. We provide comprehensive support for industrial electrical and 
+            mechanical systems, including transformer repair and servicing.
+          </p>
+        </div>
+      </div>
+
+        <div class="col-md-4 mb-4">
+        <div class="card service-card h-100" style="background-color: #e8f1ff; border-right: 5px solid #276ef1;">
+          
+            <p class="p-4 lead" style="font-size: 16px;">
+              <i class="bi bi-check-circle feature-icon display-5"></i> <br /> <br />
+                FUTURION also handles rigging works, generator servicing, 
+                advanced electric motor diagnostics, and certification. 
+                Our expertise extends to multistage, submersible, and high-pressure pump repairs, 
+                as well as custom fabrication, gearbox and power equipment servicing, and tailored 
+                mechanical repair solutions across Dubai's industrial sector. Our in-house machine shop 
+                is fully equipped to manufacture new shafts, restore damaged ones, and repair housing 
+                components with precision.
+          </p>
+        </div>
+      </div>
+<div class="col-md-4 mb-4">
+<section class="py-5 text-center text-white h-100" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+  <div class="container">
+    <h4 class="display-5 font-weight-bold mb-4">
+      Ready to Transform Your Business?
+    </h4>
+    <p class="lead mb-5 mx-auto" style="max-width: 600px; color: #dbeafe;">
+      Let's discuss your project and create a custom solution that drives results can save a lot of time and money.
+    </p>
+    <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
+      <a href="#" class="btn btn-light btn-lg text-primary font-weight-bold px-4 py-2 mb-3 mb-sm-0 mr-sm-3">
+        Get Free Consultation
+      </a>
+    </div>
+  </div>
+</section>
+
+</div>
+    </div>
+
+
+  </div>
+</section>
+<section class="py-5 bg-white" id="rewindingService">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Column: Text -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="display-4 font-weight-bold text-primary mb-4">
+          Our In-House Machine Shop Services Include
+        </h2>
+        <p class="lead text-muted mb-4">
+          removing the damaged winding, new winding installation, and insulation. Our experts are trained in the planned upkeep of AC & DC motors.
+        </p>
+  <div class="d-flex flex-wrap">
+    <!-- First List -->
+    <ul class="list-unstyled" style="padding-right: 22px;">
+      <li class="mb-2 text-muted"><i class="fas fa-check text-primary mr-2"></i> Shaft Repairs</li>
+      <li class="mb-2 text-muted"><i class="fas fa-check text-primary mr-2"></i> Housing Restoration</li>
+      <li class="mb-2 text-muted"><i class="fas fa-check text-primary mr-2"></i> Dynamic Balancing</li>
+    </ul>
+
+    <!-- Second List -->
+    <ul class="list-unstyled">
+      <li class="mb-2 text-muted"><i class="fas fa-check text-primary mr-2"></i> Insulation Testing</li>
+      <li class="mb-2 text-muted"><i class="fas fa-check text-primary mr-2"></i> Custom Fabrication</li>
+      <li class="mb-2 text-muted"><i class="fas fa-check text-primary mr-2"></i> Rotor Alignment</li>
+    </ul>
+  </div>
+      </div>
+
+      <!-- Right Column: Image -->
+      <div class="col-lg-6 text-center">
+        <div class="position-relative">
+<img src="https://www.ghaimagroup.com/imgs/submersible%20pump%20repair.jpg" 
+     alt="Office Environment"
+     class="rounded shadow-lg"
+     style="border: 5px solid #2563eb; object-fit: none; object-position: right; width: 100%;">
+
+          
+          <!-- Floating Badge (optional) -->
+          <div class="position-absolute bg-primary text-white p-3 rounded shadow" style="bottom: -20px; left: -20px;">
+            <h4 class="mb-0 font-weight-bold">10+ Years</h4>
+            <small>Industry Experience</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- our services -->
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-5 " id="services">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">Why Choose Us</h2>
+    <p class="text-center text-muted mb-4">We offer modern technology and environmentally friendly products to most private, industrial and <br /> governmental sectors</p>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Skilled Technicians and Professionals</h4>
+          <p class="text-muted small">Our team comprises industry professionals, skilled technicians with well-equipped infrastructure, and an in-house machine shop. </p>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-bolt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Flexible Services</h4>
+          <p class="text-muted small">We offer on-site and internal machine shop services. Your specific needs will be considered as our experienced experts provide you with recommendations.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Quick Response</h4>
+          <p class="text-muted small">Our crew responds promptly, is aware of the time limits, and offers quick turnaround repair work and services to reduce expensive downtime.</p>
+
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Detailed Reports</h4>
+          <p class="text-muted small">For all your electro mechanical & marine engineering services, repairs & overhauls, we offer comprehensive reports.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Total Maintenance</h4>
+          <p class="text-muted small">We are committed to providing comprehensive maintenance services at economical pricing.</p>
+        </div>
+      </div>
+
+      <!-- Custom Solutions CTA -->
+      <div class="col-md-6 col-lg-4 mb-4" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-blue text-white d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="font-weight-bold">Low-cost Services</h5>
+            <p class="lead">We are experts in industrial mechanical and electric motor repair services like reciprocating compressor repair, single phase motor repair, and more.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+
+
+
+
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
