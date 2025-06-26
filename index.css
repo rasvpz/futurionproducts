@@ -829,13 +829,13 @@ border-bottom: 1px solid #ddd;
     
 
   .filter-btn {
-    border-radius: 50px;
-    margin: 5px;
-    padding: 8px 10px;
-    border: 1px solid #ddd;
-    background-color: #fff;
+    
+    
+    
+    
+    
     transition: all 0.3s;
-    font-size: 12px;
+  
   }
 
   .filter-btn:hover {
@@ -871,5 +871,18 @@ border-bottom: 1px solid #ddd;
     box-shadow: 0 0 8px #1662f6;
     border-color: #1662f6;
   }
-  
+  .badge-custom.active {
+    background-color: #2563eb;
+    color: white;
+}
+.brdnone {
+  border: none;
+}
+.badge-custom {
+  font-size: 12px;
+}
+.badge-custom {
+  background-color: #bfdbfe;
+  color: #1e3a8a;
+} 
 
