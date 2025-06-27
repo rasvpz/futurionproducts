@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FUTURION - Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap & Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <!-- In <head> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+  <style>
+    .filter-btn.active {
+      background-color: #007bff;
+      color: white;
+    }
+    .product-section {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg pl-3">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+
+      <!-- Services Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+          <a class="dropdown-item" href="service.html">Repairing & Rewinding</a>
+           <a class="dropdown-item" href="inhouse.html">in House Mechine Shop</a>
+                     <a class="dropdown-item" href="dynamic-balancing.html">Dynamic Balancing</a>
+            <a class="dropdown-item" href="electric-testing.html">Electric Testing</a>
+          </div>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<!-- Video Background -->
+<div class="video-background">
+  <video autoplay muted loop playsinline>
+    <source src="video/home background2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-overlay-content text-center">
+    <h1 class="homepage-header font-weight-bold display-4 display-md-3 display-lg-2">
+      Our Products
+    </h1>
+    <p class="homepage-pg text-white lead">
+      Delivering high-performance engineering products from trusted global brands—designed to support innovation, efficiency, and long-term value.
+    </p>
+  </div>
+
+  <!-- button -->
+  <div class="text-center mt-4">
+    <a href="#services" class="btn explore-btn explore-btn">
+      Explore Our products <i class="fas fa-arrow-right ml-2"></i>
+    </a>
+  </div>
+</div>
+
+
+<!-- Buttons -->
+<div class="container mt-4 btn-mrgn text-center">
+  <div class="d-flex flex-wrap justify-content-center align-items-center mt-3 gap-2">
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn active" data-target="staticTest"><b>Static Tests</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="insulation"><b>Insulation Resistance Test</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="polarization"><b>Polarization Index Tests</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="serge"><b>Serge Comparison Tests</b></button>
+  </div>
+</div>
+
+<!-- staticTest -->
+<div class="container mt-4">
+  <div class="product-section" id="staticTest">
+    <section class="product-header text-center spaceing">
+      <div class="underline"></div>
+      <h1 class="h1Alihnmrnt">Static Test</h1>
+      <p class="weOffer">Static test details about vertical pumps.</p>
+    </section>
+    <section class="p-5 bg-light">
+    <div class="row align-items-start">
+      
+      <!-- Left Column -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <h3 class="text-primary font-weight-bold mb-3">Electrical Testing Services in Dubai</h3>
+        <p>
+          Futurion offers electrical testing services in Dubai to cater to all your application needs.
+          Our distinct range of testing services features all kinds of tests, such as the <strong>Surge Comparison test</strong>, 
+          <strong>Hipot test</strong>, <strong>Insulation Resistance test</strong>, <strong>Polarity Index test</strong>,
+          <strong>Static test</strong>, and <strong>Megger test</strong>.
+        </p>
+        <p>
+          We are fully equipped to keep pace with the modern trends with updated electrical and mechanical technology products and methods.
+          It enables us to carry out all sorts of repairs, rewinding electric motor and testing with the required machining facilities.
+        </p>
+
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-6">
+        <div class="bg-white p-4 shadow-sm rounded border-left border-primary">
+          <h5 class="text-primary mb-3">Detailed Testing Methods</h5>
+          <ul class="list-unstyled">
+            <li>✔️ Core Testing</li>
+            <li>✔️ RSO Testing</li>
+            <li>✔️ Armature Testing Growler</li>
+            <li>✔️ Insulation Resistance</li>
+            <li>✔️ Partial Discharge Analyzer</li>
+            <li>✔️ Submersible Testing</li>
+            <li>✔️ HV Testing AC/DC</li>
+            <li>✔️ No Load Testing of LV, MV & HV Motors</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+        <p>
+          Our technicians are fully trained and knowledgeable of the safety protocols to perform the electrical tests correctly.
+          The outcome of our unsurpassed experience in the industry is the high-level quality and year-round warranty, which further allows
+          us to assure customers of our long-term trust.
+        </p>
+</section>
+<section class="py-0" style="background-color: #f8fbff;">
+  <div class="container">
+    <div class="row">
+      
+      <!-- First Image -->
+      <div class="col-md-6 mb-4 mb-md-0 text-center">
+        <img src="https://www.ghaimagroup.com/imgs/surge%20comparison%20test.jpg" 
+             alt="Testing Image 1" 
+             class="img-fluid rounded shadow-lg" 
+             style="border: 5px solid #007bff;">
+      </div>
+
+      <!-- Second Image -->
+      <div class="col-md-6 text-center">
+        <img src="https://www.ghaimagroup.com/imgs/insulation%20resistance%20test.jpg" 
+             alt="Testing Image 2" 
+             class="img-fluid rounded shadow-lg" 
+             style="border: 5px solid #007bff;">
+      </div>
+
+    </div>
+  </div>
+</section>
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-5 " id="services">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">What Tests We Offer?</h2>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Surge Comparison Test</h4>
+          <p class="text-muted small">This test finds faults and damages in the coils, windings, compressors, and alternators. It is also used in testing faulty connections, wrong turn counts, and DC motor faults. Our experts perform surge comparison tests following safety protocols to ensure the integrity of the equipment and usually apply such tests for the transformer and generator repair. </p>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-bolt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Insulation Resistance Test</h4>
+          <p class="text-muted small">Insulation deteriorates over time due to the worst temperatures, chemical abrasion, or being gnawed by rats. An insulation resistance test determines the level of damage to the insulation, which, if remains unattended, can prove fatal to power reliability and personnel safety.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Polarity Index Test</h4>
+          <p class="text-muted small">Polarization index (PI) testing is a variation of the insulation resistance test that checks for specific concerns in a motor, such as moisture and insulation breakdown. To avoid unexpected downtime and costly repair due to damage, certain tests should be conducted for optimum performance.</p>
+
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Static Test</h4>
+          <p class="text-muted small">For a motor to continue safe and successful operation, periodic static testing is done to predict the potential of the motor. This test is most effective in allowing the tracking and trending of the working condition of an electric motor on a regular basis.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Megger Test</h4>
+          <p class="text-muted small">This test is performed using an insulation tester resistance meter to understand the condition of the insulation. It is necessary to check the health of insulation periodically as it is prone to get damaged due to environmental, chemical, and other factors.</p>
+        </div>
+      </div>
+
+      <!-- Custom Solutions CTA -->
+      <div class="col-md-6 col-lg-4 mb-4" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-blue text-white d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="font-weight-bold">To Know About What We Offer</h5>
+            <p class="lead">Futorion can  finds faults and damages in the coils, windings, compressors, and alternators.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="row">
+  <!-- Card 1 -->
+  <div class="col-md-6 col-lg-4 mb-4">
+    <div class="service-card rounded shadow-sm bg-white h-100">
+      <div style="background-color: #e8f1ff;" class="p-3">
+        <img src="https://www.ghaimagroup.com/imgs/polarity%20index%20test.jpg" class="img-fluid rounded" alt="Polarity Index Test" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col-md-6 col-lg-4 mb-4">
+    <div class="service-card rounded shadow-sm bg-white h-100">
+      <div style="background-color: #e8f1ff;" class="p-3">
+        <img src="https://www.ghaimagroup.com/imgs/static%20test.jpg" class="img-fluid rounded" alt="Static Test" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col-md-6 col-lg-4 mb-4">
+    <div class="service-card rounded shadow-sm bg-white h-100">
+      <div style="background-color: #e8f1ff;" class="p-3">
+        <img src="https://www.ghaimagroup.com/imgs/megger%20test.jpg" class="img-fluid rounded" alt="Megger Test" />
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+  </div>
+
+<!-- insulation -->
+  <div class="product-section" id="insulation">
+    <section class="product-header text-center spaceing">
+      <div class="underline"></div>
+      <h1 class="h1Alihnmrnt">Insulation Resistance Test</h1>
+      <p class="weOffer">Insulation resistance test description goes here.</p>
+    </section>
+  </div>
+
+<!-- polarization -->
+  <div class="product-section" id="polarization">
+    <section class="product-header text-center spaceing">
+      <div class="underline"></div>
+      <h1 class="h1Alihnmrnt">Polarization Index Test</h1>
+      <p class="weOffer">Polarization index test description goes here.</p>
+    </section>
+  </div>
+
+<!-- serge -->
+  <div class="product-section" id="serge">
+    <section class="product-header text-center spaceing">
+      <div class="underline"></div>
+      <h1 class="h1Alihnmrnt">Serge Comparison Test</h1>
+      <p class="weOffer">Serge comparison test description goes here.</p>
+    </section>
+  </div>
+</div>
+
+<!-- Working Script -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".filter-btn");
+    const sections = document.querySelectorAll(".product-section");
+
+    function showSection(targetId) {
+      sections.forEach(section => {
+        section.style.display = section.id === targetId ? "block" : "none";
+      });
+    }
+
+    buttons.forEach(button => {
+      button.addEventListener("click", function () {
+        buttons.forEach(btn => btn.classList.remove("active"));
+        this.classList.add("active");
+
+        const target = this.getAttribute("data-target");
+        showSection(target);
+      });
+    });
+
+    const defaultBtn = document.querySelector(".filter-btn.active");
+    if (defaultBtn) {
+      showSection(defaultBtn.getAttribute("data-target"));
+    }
+  });
+</script>
+
+
+
+
+<!-- Footer -->
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

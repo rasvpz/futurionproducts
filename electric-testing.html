@@ -24,12 +24,22 @@
     .product-section {
       display: none;
     }
+    .py-011{
+    padding-top: 3rem !important;  /* Bootstrap py-5 (pt + pb = 3rem each) */
+      padding-bottom: 3rem;
+  }
+  @media (max-width: 768px) {
+      .py-011 {
+        padding-top: .5rem !important;  /* py-3 (pt + pb = 1rem each) */
+        padding-bottom: 3rem !important;
+      }
+    }
   </style>
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg pl-3">
   <a class="navbar-brand" href="#">
     <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
   </a>
@@ -71,10 +81,10 @@
   </video>
   <div class="video-overlay-content text-center">
     <h1 class="homepage-header font-weight-bold display-4 display-md-3 display-lg-2">
-      Our Products
+      Electrical Testing
     </h1>
     <p class="homepage-pg text-white lead">
-      Delivering high-performance engineering products from trusted global brands—designed to support innovation, efficiency, and long-term value.
+      Electrical testing is the process of verifying the performance, safety, and reliability of electrical systems and components.
     </p>
   </div>
 
@@ -90,7 +100,8 @@
 <!-- Buttons -->
 <div class="container mt-4 btn-mrgn text-center">
   <div class="d-flex flex-wrap justify-content-center align-items-center mt-3 gap-2">
-    <button class="badge badge-custom py-2 px-3 brdnone filter-btn active" data-target="staticTest"><b>Static Tests</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn active" data-target="electricTest"><b>Electric Testing</b></button>
+    <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="staticTest"><b>Static Tests</b></button>
     <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="insulation"><b>Insulation Resistance Test</b></button>
     <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="polarization"><b>Polarization Index Tests</b></button>
     <button class="badge badge-custom py-2 px-3 brdnone filter-btn" data-target="serge"><b>Serge Comparison Tests</b></button>
@@ -99,13 +110,14 @@
 
 <!-- staticTest -->
 <div class="container mt-4">
-  <div class="product-section" id="staticTest">
+
+  <div class="product-section" id="electricTest">
     <section class="product-header text-center spaceing">
       <div class="underline"></div>
-      <h1 class="h1Alihnmrnt">Static Test</h1>
-      <p class="weOffer">Static test details about vertical pumps.</p>
+      <h1 class="h1Alihnmrnt">Electric Test</h1>
+      <p class="weOffer">Electric test details about vertical pumps.</p>
     </section>
-    <section class="p-5 bg-light">
+    <section class="py-011 bg-light">
     <div class="row align-items-start">
       
       <!-- Left Column -->
@@ -267,12 +279,181 @@
 </div>
   </div>
 
+
+
+
+<!-- staticTest -->
+  <div class="product-section" id="staticTest">
+    <section class="product-header text-center spaceing">
+      <div class="underline"></div>
+      <h1 class="h1Alihnmrnt">StaticTest Resistance Test</h1>
+      <p class="weOffer">staticTest resistance test description goes here.</p>
+
+<div style="background-color: #f0f8ff;">
+  <div class="container">
+
+    <!-- Row 1: Full-width Description -->
+    <div class="row mb-5">
+      <div class="col">
+        <h3 class="text-primary font-weight-bold mb-3 mt-4">Static Testing Services</h3>
+        <p class="lead text-left">
+          Static testing involves the evaluation of electric motors and equipment while they are in a stationary or non-operational state.
+          It is conducted to thoroughly analyze various parameters, properties, and characteristics under specific conditions. Further, the test helps in determining the motor’s condition, performance, reliability, and safety.
+        </p>
+        <p class="lead text-left">
+          At our electro mechanical company, we offer static testing services to help clients detect potential issues in motors and systems.
+          Further, our knowledgeable team provides the best measures to maintain and repair the equipment in compliance with safety standards and regulations.
+        </p>
+        <p class="lead text-left">
+          Get in touch with us today for top-notch motor testing and maintenance services.
+          You can also check and request a quote for our other services, including electric motor rewinding,
+          chiller compressor motor rewinding and repair, submersible pump motor repair, generator rewinding, and transformer repair.
+        </p>
+      </div>
+    </div>
+
+    <!-- Row 2: 2 Columns -->
+    <div class="row align-items-left">      
+      <!-- Column 1: Image -->
+      <div class="col-md-6 mb-6 mb-md-0">
+        <img src="https://www.ghaimagroup.com/imgs/statics1.jpg" alt="Static Testing" style="border: 2px solid #007bff;" class="img-fluid rounded shadow-sm mb-4">
+      </div>
+      <!-- Column 2: Test List -->
+      <div class="col-md-6">
+        <h5 class="text-primary font-weight-bold mb-3 text-left">Various Types of Static Tests Offered</h5>
+        <p class="lead text-left">We provide the following static tests at our mechanical and electrical company:</p>
+        <ul class="list-unstyled text-left">
+          <li>✔️ Insulation Resistance (IR) Test</li>
+          <li>✔️ Polarization Index (PI) Test</li>
+          <li>✔️ Surge Comparison Test</li>
+          <li>✔️ Winding Resistance Test</li>
+          <li>✔️ Armature Drop Test</li>
+          <li>✔️ Growler Test</li>
+          <li>✔️ Core Loss Test</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- our services -->
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-5 " id="services">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">Importance of Static Test</h2>
+    <p class="text-center text-muted mb-4">Some of the factors that make this test crucial for electric motors are listed below.</p>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Early Detection Issues</h4>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-bolt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Safety Assurance</h4>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Performance Evaluation</h4>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Reliability Assesment</h4>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Cost Savings</h4>
+        </div>
+      </div>
+
+      <!-- Custom Solutions CTA -->
+      <div class="col-md-6 col-lg-4 mb-4" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-blue text-white d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="font-weight-bold">Need Custom Solutions?</h5>
+          </div>
+          <a href="#contact" class="btn btn-light font-weight-bold mt-3">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+    </section>
+  </div>
+
+
 <!-- insulation -->
   <div class="product-section" id="insulation">
     <section class="product-header text-center spaceing">
       <div class="underline"></div>
       <h1 class="h1Alihnmrnt">Insulation Resistance Test</h1>
       <p class="weOffer">Insulation resistance test description goes here.</p>
+      <div style="background-color: #f0f8ff;">
+  <div class="container">
+
+    <!-- Row 1: Full-width Description -->
+    <div class="row mb-5">
+      <div class="col">
+        <h3 class="text-primary font-weight-bold mb-3 mt-4">Static Testing Services</h3>
+        <p class="lead text-left">
+          The insulation resistance test, also known as the Megger Test, is a fundamental electrical test used to assess the quality and integrity of insulation materials within electrical systems and equipment. Its primary purpose is to ensure that the insulating materials withstand the operating voltage and adequately protect conductive parts from unintended contact, leakages, and short circuits. Thus, preventing potential electrical mishaps and equipment failures.  </p>
+        <p class="lead text-left">
+          At our mechanical and electrical company, we conduct this test to identify insulation degradation, moisture ingress, and other aging-related issues that might lead to electrical breakdowns or short circuits, particularly in electric motors, transformers, and generators.  </p>
+        <p class="lead text-left">
+          our professionals can address them proactively, reducing the risk of costly downtime and equipment damage. Contact us for our IR test service in Dubai. Our other offerings include industrial pump repair, electric motor repair, and generator rewinding services. </p>
+      </div>
+    </div>
+
+    <!-- Row 2: 2 Columns -->
+    <div class="row align-items-left">      
+      <!-- Column 1: Image -->
+      <div class="col-md-6 mb-6 mb-md-0">
+        <img src="https://www.ghaimagroup.com/imgs/insulation1.jpg" alt="Static Testing" style="border: 2px solid #007bff;" class="img-fluid rounded shadow-sm mb-4">
+      </div>
+      <!-- Column 2: Test List -->
+      <div class="col-md-6">
+        <h5 class="text-primary font-weight-bold mb-3 text-left">
+Significance of IR Test</h5>
+        <p class="lead text-left">The insulation resistance test holds significant importance. Some key aspects of the test include:</p>
+        <ul class="list-unstyled text-left">
+          <li>✔️ Assessing Insulation Quality</li>
+          <li>✔️ Preventing Electrical Hazards</li>
+          <li>✔️ Detecting Deterioration and Aging</li>
+          <li>✔️ Avoiding Equipment Failure</li>
+          <li>✔️ Troubleshooting and Diagnostics</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="row mb-5">
+      <div class="col">
+        <h3 class="text-primary font-weight-bold mb-3 mt-4">How We Conduct IR Test?</h3>
+        <p class="lead text-left">
+          Our professionals conduct an insulation resistance test to measure the resistance offered by the insulating material against the flow of direct current (DC) through it. They use a specialized instrument called a megohmmeter or an insulation resistance tester to perform it. This device applies a high DC voltage (typically 500V, 1000V, 1850V, 2500V, 5000V, and 10,000V) between the conductive parts of the equipment and its non-conductive surfaces. If the device reflects a higher reading, it indicates better insulation, while lower values indicate insulation deterioration or moisture ingress. 
+          <p class="lead text-left">
+          At our mechanical and electrical company, we conduct this test to identify insulation degradation, moisture ingress, and other aging-related issues that might lead to electrical breakdowns or short circuits, particularly in electric motors, transformers, and generators.  </p>
+        </div>
+    </div>
     </section>
   </div>
 
@@ -280,9 +461,111 @@
   <div class="product-section" id="polarization">
     <section class="product-header text-center spaceing">
       <div class="underline"></div>
-      <h1 class="h1Alihnmrnt">Polarization Index Test</h1>
-      <p class="weOffer">Polarization index test description goes here.</p>
+            <h1 class="h1Alihnmrnt">Polarization Index Test</h1>
+            <p class="weOffer">Polarization index test description goes here.</p>
+<div style="background-color: #f0f8ff;">
+  <div class="container">
+    <!-- Row 1: Full-width Description -->
+    <div class="row mb-5">
+      <div class="col">
+        <h3 class="text-primary font-weight-bold mb-3 mt-4">Polarization Testing Services</h3>
+        <p class="lead text-left">
+The Polarization Index test is considered a valuable tool to identify the accumulation of dirt or moisture and insulation deterioration in electric motors, transformers, and generators. </p>
+        <p class="lead text-left">
+At Ghaima Group, we use this testing to assess equipment's insulation-related problems before they escalate into costly and hazardous failures. Further, we provide proactive measures to resolve them in order to elevate the reliability and performance of equipment, reduce downtime, and avoid unexpected breakdowns. </p>
+        <p class="lead text-left">
+Trust our professional electro mechanical company to safeguard electrical systems and motors. We also offer DC electric motor repair, reciprocating compressor repair, and power transformer repair services. For more details, get in touch with us today!  </p>
+      </div>
+    </div>
+
+    <!-- Row 2: 2 Columns -->
+    <div class="row align-items-left">      
+      <!-- Column 1: Image -->
+      <div class="col-md-6 mb-6 mb-md-0">
+        <img src="https://www.ghaimagroup.com/imgs/polarization1.jpg" alt="Static Testing" style="border: 2px solid #007bff;" class="img-fluid rounded shadow-sm mb-4">
+      </div>
+      <!-- Column 2: Test List -->
+      <div class="col-md-6">
+        <h5 class="text-primary font-weight-bold mb-3 text-left">
+Why Choose Ghaima Group for PI Testing Service?</h5>
+        <p class="lead text-left">Listed below are some of the reasons that make us stand out for providing Polarization Test services in Dubai</p>
+        <ul class="list-unstyled text-left">
+          <li>✔️ Our company employs only knowledgeable staff</li>
+          <li>✔️ We have technical expertise in conducting PI Testing</li>
+          <li>✔️ We are well-equipped with specialized testing tools</li>
+          <li>✔️ Our experts provide detailed and easy-to-understand reports</li>
+          <li>✔️ We ensure quick turnaround time and reduce downtime</li>
+          <li>✔️ We comply with industry-standard and regulations</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- our services -->
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-5 " id="services">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">Advantages of PI Test</h2>
+    <p class="text-center text-muted mb-4">The following are the benefits of conducting the polarization index test:</p>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Assess Equipment Reliability</h4>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-bolt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Enhance Safety</h4>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Extend Equipment</h4>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Long-Term Cost-Savings</h4>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-user-tie fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Optimize Performance</h4>
+        </div>
+      </div>
+
+      <!-- Custom Solutions CTA -->
+      <div class="col-md-6 col-lg-4 mb-4" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-blue text-white d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="font-weight-bold">Quick Qoute</h5>
+          </div>
+          <a href="#contact" class="btn btn-light font-weight-bold mt-3">Click Here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
     </section>
+
+
   </div>
 
 <!-- serge -->
@@ -292,6 +575,137 @@
       <h1 class="h1Alihnmrnt">Serge Comparison Test</h1>
       <p class="weOffer">Serge comparison test description goes here.</p>
     </section>
+
+<section class="py-5" style="background-color: #f0f8ff;">
+  <div class="container">
+
+    <!-- Row 1: Full-width Text -->
+    <div class="row mb-5">
+      <div class="col text-left">
+        <h3 class="text-primary font-weight-bold mb-3 text-left">Surge Comparison Test</h3>
+        <p class="lead text-left">
+          The Surge Comparison Test is a crucial diagnostic tool utilized to identify shorts and insulation vulnerabilities in coils, windings, electric motors, generators, alternators, and transformers.
+        </p>
+        <p class="text-left">
+          It is specifically designed to pinpoint faults that often occur turn-to-turn, coil-to-coil, or phase-to-phase. Additionally, it also reveals issues like incorrect internal connections and turn counts.
+          The primary concern addressed by this test is weak insulation, which is a leading cause of winding failures.
+        </p>
+        <p class="text-left">
+          Ghaima Group, an expert electro mechanical company, conducts this meticulous testing procedure to efficiently assess motor reliability and create comprehensive maintenance programs.
+        </p>
+        <p class="text-left">
+          Our highly experienced team specializes in identifying hidden faults and weaknesses, preventing costly defects from reaching our clients.
+          Further, they take proactive measures to improve equipment reliability and mitigate the risk of failures.
+        </p>
+        <p class="text-left">
+          For more information about our surge comparison test service, contact us now.
+          We also offer other mechanical and electrical services, including motor rewinding, transformer repair, and more.
+        </p>
+      </div>
+    </div>
+
+    <!-- Row 2: Image + List -->
+    <div class="row align-items-center mb-5">
+      <!-- Image -->
+      <div class="col-md-6 mb-4 mb-md-0 text-left">
+        <img src="https://www.ghaimagroup.com/imgs/surge1.jpg" alt="Surge Testing" class="img-fluid rounded shadow-sm border border-primary">
+      </div>
+      <!-- List -->
+      <div class="col-md-6 text-left">
+        <h5 class="text-primary font-weight-bold mb-3 text-left">Failures Detected by the Test</h5>
+        <p class="text-left">Some of the major failures detected are:</p>
+        <ul class="list-unstyled text-left">
+          <li>✔️ Weak insulation</li>
+          <li>✔️ Electrical shorts</li>
+          <li>✔️ Inconsistent turn counts</li>
+          <li>✔️ Incorrect coils or group connections</li>
+        </ul>
+                <p class="text-left">
+          When the coils or windings are identical and free from faults or insulation weaknesses, the displayed waveforms appear almost identical.
+          However, if any of the coils or windings have a fault or insulation weakness, the corresponding waveform will deviate in frequency from the others,
+          causing it to appear separate and distinct from the rest.
+        </p>
+      </div>
+    </div>
+
+    <!-- Row 3: List Text + How It Works -->
+    <div class="row align-items-start">
+      <!-- Left: List -->
+      <div class="col-md-6 mb-4 mb-md-0 text-left">
+        <h5 class="text-primary font-weight-bold mb-3 text-left">Failures Detected by the Test</h5>
+        <p class="text-left">Some of the major failures detected are:</p>
+        <ul class="list-unstyled text-left">
+          <li>✔️ Weak insulation</li>
+          <li>✔️ Electrical shorts</li>
+          <li>✔️ Inconsistent turn counts</li>
+          <li>✔️ Incorrect coils or group connections</li>
+        </ul>
+      </div>
+
+      <!-- Right: How it works -->
+      <div class="col-md-6 text-left">
+        <h5 class="text-primary font-weight-bold mb-3 text-left">How Does It Work?</h5>
+        <p class="text-left">
+          During testing, a series of rapidly rising pulses is applied to the coil or motor under examination.
+          When these pulses pass through the equipment, the tester's oscilloscope channel records the resulting decaying waveform.
+        </p>
+        <p class="text-left">
+          These waveforms are then compared against each other, either within the same coil or with the waves from different motor phases.
+        </p>
+      </div>
+    </div>
+
+    <!-- our services -->
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-5 " id="services">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">Benefits of Testing</h2>
+    <p class="text-center text-muted mb-4">There are various benefits of the test, as listed below:</p>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Early Fault Detection</h4>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-bolt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Enhance Equipment</h4>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Improved Safety</h4>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder text-left" style=" color: #0059ff;">Cost Saving Facility</h4>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</div>
+
+  </div>
+</section>
+
+
+
+
   </div>
 </div>
 

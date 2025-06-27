@@ -52,11 +52,47 @@
   .badge-custom{
     font-size: 16px;
   }
+  @media (max-width: 576px) {
+    .no-top-space {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+  }
+  .py-101{
+    padding-top: 2rem;  /* Bootstrap py-5 (pt + pb = 3rem each) */
+      padding-bottom: 2rem;
+  }
+  @media (max-width: 768px) {
+      .py-101 {
+        padding-top: 0rem !important;  /* py-3 (pt + pb = 1rem each) */
+        padding-bottom: 0rem !important;
+      }
+    }
+    .py-110{
+    padding-top: 2rem;  /* Bootstrap py-5 (pt + pb = 3rem each) */
+      padding-bottom: 2rem;
+  }
+  @media (max-width: 768px) {
+      .py-110 {
+        padding-top: 0rem !important;  /* py-3 (pt + pb = 1rem each) */
+        padding-bottom: 5rem !important;
+      }
+    }
+    .py-111{
+    padding-top: 3rem;  /* Bootstrap py-5 (pt + pb = 3rem each) */
+      padding-bottom: 2rem;
+  }
+  @media (max-width: 768px) {
+      .py-111 {
+        padding-top: 3rem !important;  /* py-3 (pt + pb = 1rem each) */
+        padding-bottom: 0rem !important;
+      }
+    }
 </style>
 
 </head>
 <body class="bg-light">
-<nav class="navbar navbar-expand-lg navbar-dark gradient-bg">
+<nav class="navbar navbar-expand-lg navbar-dark gradient-bg pl-3">
   <a class="navbar-brand" href="#">
     <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
   </a>
@@ -100,7 +136,7 @@
 </section>
 
 <!-- Stats Section -->
-<section class="py-5 bg-white">
+<section class="stats-section bg-white">
   <div class="container">
     <div class="row text-center">
       <div class="col-6 col-md-3">
@@ -135,30 +171,31 @@
 
   </div>
 </section>
-<section class="py-5 bg-white" id="rewindingService">
+<section class="py-101 bg-white" id="rewindingService">
 <div class="container mt-5">
   <div class="row align-items-center custom-section">
     
     <!-- Left Column: Text -->
-    <div class="col-md-6 mb-4 mb-md-0">
-        <h2 class="display-4 font-weight-bold text-primary mb-4">Dynamic Balancing Services</h2>
+    <div class="col-md-6 mb-4 mb-md-0 no-top-space">
+      <h2 class="display-4 font-weight-bold text-primary mb-4">Dynamic Balancing Services</h2>
       <p class="custom-description">
-          Dynamic balancing service is a process that involves reducing or eliminating vibrations in rotating 
-          machinery or equipment. It is essential for ensuring the smooth operation, longevity, and performance 
-          of such equipment. Dynamic balancing is commonly required for various types of rotating systems, 
-          including motors, fans, turbines, pumps, generators, and more. During dynamic balancing, 
-          the equipment is tested while running to identify any imbalances. Imbalances can occur due 
-          to uneven distribution of mass in the rotating parts, such as impellers, rotors, or shafts. 
-          These imbalances can lead to excessive vibrations, decreased efficiency, increased wear and tear, 
-          and even potential damage to the equipment. <p class="lead text-muted">
-
-          Our electro-mechanical company can provide dynamic balancing services to help address these issues.</p>
+        Dynamic balancing service is a process that involves reducing or eliminating vibrations in rotating 
+        machinery or equipment. It is essential for ensuring the smooth operation, longevity, and performance 
+        of such equipment. Dynamic balancing is commonly required for various types of rotating systems, 
+        including motors, fans, turbines, pumps, generators, and more. During dynamic balancing, 
+        the equipment is tested while running to identify any imbalances. Imbalances can occur due 
+        to uneven distribution of mass in the rotating parts, such as impellers, rotors, or shafts. 
+        These imbalances can lead to excessive vibrations, decreased efficiency, increased wear and tear, 
+        and even potential damage to the equipment.
+      </p>
+      <p class="lead text-muted">
+        Our electro-mechanical company can provide dynamic balancing services to help address these issues.
       </p>
     </div>
 
     <!-- Right Column: Image -->
     <div class="col-md-6 text-center">
-      <img src="https://www.ghaimagroup.com/imgs/dynamic%20balancing.jpg" alt="Skill Image" class="custom-img">
+      <img src="https://www.ghaimagroup.com/imgs/dynamic%20balancing.jpg" alt="Skill Image" class="img-fluid custom-img">
     </div>
 
   </div>
@@ -169,7 +206,7 @@
 <!-- our services -->
  <div class="bg-color">
   <!-- first section -->
- <section class="services-section py-5 " id="services">
+ <section class="services-section py-111 " id="services">
   <div class="container">
     <h2 class="text-center font-weight-bold text-dark-blue">Here's How We Can Assist</h2>
     <div class="underline mb-5 mx-auto"></div>
@@ -234,7 +271,7 @@ That involves reducing or eliminating vibrations in rotating machinery or equipm
 </div>
 
 
-<section class="py-5 bg-white" id="rewindingService">
+<section class="py-110 bg-white" id="rewindingService">
 <div class="container mt-5">
   <div class="row align-items-center custom-section">
     
@@ -250,7 +287,7 @@ That involves reducing or eliminating vibrations in rotating machinery or equipm
 
     <!-- Right Column: Image -->
     <div class="col-md-6 text-center">
-      <img src="https://www.ghaimagroup.com/imgs/fan%20blower%20repair%20service%20dubai.jpg" alt="Skill Image" class="custom-img" height="400px">
+      <img src="https://www.ghaimagroup.com/imgs/fan%20blower%20repair%20service%20dubai.jpg" alt="Skill Image" class="img-fluid custom-img" height="400px">
     </div>
 
   </div>
