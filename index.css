@@ -80,8 +80,10 @@ body {
   background-color: #1b54c2 !important; /* Darker blue on hover */
   text-decoration: none !important; 
 }
+.dropdown-menu{
 
-
+  margin-left: -120px;
+}
 
     @media (max-width: 570px) {
       .navbar-nav {
@@ -114,6 +116,7 @@ body {
     .experience-box{
       margin-top: -100px !important;
     }
+
     }
 
 .about{
@@ -258,6 +261,9 @@ body {
       margin: 0px !important;
       margin-top: 4px !important;
     }
+        .dropdown-menu{
+          margin-left: -15px !important;
+}
     }
 
 

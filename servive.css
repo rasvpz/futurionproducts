@@ -20,12 +20,23 @@ footer {
       padding-top: 2rem;  /* Bootstrap py-5 (pt + pb = 3rem each) */
       padding-bottom: 2rem;
     }
+    .dropdown-menu{
+
+  margin-left: -120px;
+}
     
     @media (max-width: 768px) {
       .stats-section {
         padding-top: 1rem !important;  /* py-3 (pt + pb = 1rem each) */
         padding-bottom: 1rem !important;
       }
+    }
+
+    
+    @media (max-width: 576px) {
+        .dropdown-menu{
+          margin-left: 15px !important;
+    }
     }
     
     .footer-section h3 {
@@ -136,7 +147,7 @@ footer {
   z-index: 10;
 }
 .navbar-transparent {
-  background: rgba(0, 0, 0, 0.4); /* or use backdrop-filter */
+  background: rgba(0, 0, 0, 0.4) !important; /* or use backdrop-filter */
   backdrop-filter: blur(10px);
 }
 footer {
@@ -227,5 +238,10 @@ transform: translateY(-2px);
 }
 .brdnone{
   border: none;
+}
+.underline {
+  width: 70px;
+  height: 4px;
+  background-color: #276EF1;
 }
     

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="servive.css">
+
+
+<style>
+  .gradient-bg {
+    background: linear-gradient(to right, #2563eb, #1e40af);
+    color:white !important;
+    font-weight: bold;
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #bfdbfe, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .service-card {
+    transition: all 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  }
+
+  .badge-custom {
+    background-color: #bfdbfe;
+    color: #1e3a8a;
+  }
+
+  .feature-icon {
+    color: #2563eb;
+  }
+  .active{
+    background-color: blue;
+    color:white;
+  }
+  .badge-custom{
+    font-size: 16px;
+  }
+  @media (max-width: 576px) {
+    .no-top-space {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+  }
+  .py-101{
+    padding-top: 2rem;  /* Bootstrap py-5 (pt + pb = 3rem each) */
+      padding-bottom: 2rem;
+  }
+  @media (max-width: 768px) {
+      .py-101 {
+        padding-top: 0rem !important;  /* py-3 (pt + pb = 1rem each) */
+        padding-bottom: 0rem !important;
+      }
+    }
+    .py-110{
+    padding-top: 2rem;  /* Bootstrap py-5 (pt + pb = 3rem each) */
+      padding-bottom: 2rem;
+  }
+  @media (max-width: 768px) {
+      .py-110 {
+        padding-top: 0rem !important;  /* py-3 (pt + pb = 1rem each) */
+        padding-bottom: 5rem !important;
+      }
+    }
+    .py-111{
+    padding-top: 3rem;  /* Bootstrap py-5 (pt + pb = 3rem each) */
+      padding-bottom: 2rem;
+  }
+  @media (max-width: 768px) {
+      .py-111 {
+        padding-top: 3rem !important;  /* py-3 (pt + pb = 1rem each) */
+        padding-bottom: 0rem !important;
+      }
+    }
+</style>
+
+</head>
+<body class="bg-light">
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg pl-3">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="FUTURION logo" style="height: 40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="products.html">Product</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+
+      <!-- Services Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <a class="dropdown-item" href="service.html">Repairing & Rewinding</a>
+           <a class="dropdown-item" href="inhouse.html">in House Mechine Shop</a>
+           <a class="dropdown-item" href="dynamic-balancing.html">Dynamic Balancing</a>
+            <a class="dropdown-item" href="electric-testing.html">Electric Testing</a>
+            <a class="dropdown-item" href="modifications.html">Modification & Trouble Shooting</a>   
+            <a class="dropdown-item" href="compressor-services.html">compressor-services</a>                     
+            <a class="dropdown-item" href="laser-alignment.html">laser-alignment</a>                     
+            <a class="dropdown-item" href="industrial-gearbox-repair.html">industrial-gearbox-repair</a>                     
+            <a class="dropdown-item" href="hvacRepair.html">HVAC Repair & Retrofit Services</a>
+            <a class="dropdown-item" href="mechanicalContracting.html">Mechanical Contracting </a>
+            <a class="dropdown-item" href="turnkey.html">Turnkey MEP Contracting</a>
+            <a class="dropdown-item" href=" drop-test-dc-motor.html"> Drop-test-dc-motor</a> 
+        </div>
+      </li>
+
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- Hero Section -->
+<section class="text-white text-center gradient-bg py-5 position-relative">
+  <div class="container">
+    <h1 class="display-4 fw-bold">In House <span class="gradient-text d-block">Laser Shaft Alignment Services</span></h1>
+    <p class="lead mt-3 mb-4"> Process of Laser Alignment Services</p>
+    <div class="d-flex justify-content-center flex-wrap gap-3">
+      <a href="#" class="btn btn-light text-primary px-4 py-2">Explore Services <i class="bi bi-arrow-right ms-2"></i></a>
+      <a href="#" class="btn btn-outline-light px-4 py-2">View Portfolio</a>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats-section bg-white">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">500+</h2>
+        <p>Projects Completed</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">98%</h2>
+        <p>Client Satisfaction</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">50+</h2>
+        <p>Team Members</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2 class="text-primary fw-bold">24/7</h2>
+        <p>Support Available</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="py-0">
+  <div class="container">
+    <div class="text-center mb-5 ">
+       <h2 class="text-center font-weight-bold text-dark-blue mt-4 text-primary">Expert Laser Alignment Services</h2>
+      <p class="text-muted mx-auto">Precision maintenance in many industries depends on laser shaft alignment services. These services entail the precise alignment of rotating machinery shafts utilizing laser technology, assuring optimum performance and lowering the possibility of machinery malfunctions. Leading maritime engineering company Ghiama Group provides laser shaft alignment services that involve several important stages and factors to achieve perfect alignment. These services improve machinery reliability, energy efficiency, performance, and overall cost-effectiveness through a meticulous measurement, adjustment, and verification process.</p>
+    </div>
+
+ 
+
+  </div>
+</section>
+<section class="py-101 bg-white" id="rewindingService">
+<div class="container mt-5">
+  <div class="row align-items-center custom-section">
+    
+    <!-- Left Column: Text -->
+    <div class="col-md-6 mb-4 mb-md-0 no-top-space">
+      <h2 class="display-4 font-weight-bold text-primary mb-4">Pre-Alignment Preparation</h2>
+      <p class="custom-description">
+Proper preparation is crucial for a successful alignment process. The process begins with collecting relevant data, such as machinery specifications, alignment tolerances, and thermal growth calculations. Technicians gather information about the machinery's coupling type, shaft sizes, rotational speeds, and any previous alignment issues.
+      </p>
+
+    </div>
+
+    <!-- Right Column: Image -->
+    <div class="col-md-6 text-center">
+      <img src="https://www.ghaimagroup.com/imgs/process-of-laser-alignment-services1.jpg" alt="Skill Image" class="img-fluid custom-img">
+    </div>
+
+  </div>
+</div>
+</section>
+
+<section class="py-110 bg-white" id="rewindingService">
+<div class="container mt-5">
+  <div class="row align-items-center custom-section">
+    
+    <!-- Left Column: Text -->
+
+    <div class="col-md-6 text-center">
+      <img src="https://www.ghaimagroup.com/imgs/process-of-laser-alignment-services2.jpg" alt="Skill Image" class="img-fluid custom-img" height="400px">
+    </div>
+
+
+    <!-- Right Column: Image -->
+        <div class="col-md-6 mb-4 mb-md-0">
+        <h2 class="display-4 font-weight-bold text-primary mb-4">Initial Measurement</h2>
+      <p class="custom-description">
+          Laser alignment devices are used to measure the current misalignment between the shafts. These devices consist of a laser emitter and a detector that provide accurate readings of shaft positions. The initial measurements provide baseline data to determine the adjustments required for alignment.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="py-101 bg-white" id="rewindingService">
+<div class="container mt-5">
+  <div class="row align-items-center custom-section">
+    
+    <!-- Left Column: Text -->
+    <div class="col-md-6 mb-4 mb-md-0 no-top-space">
+      <h2 class="display-4 font-weight-bold text-primary mb-4">Adjustment</h2>
+      <p class="custom-description">
+ Based on the initial measurements, technicians make precise adjustments to align the machinery shafts. This may involve modifying the shims, adjusting the mounting bolts, or realigning coupling elements. The goal is to minimize the misalignment between the shafts within specified tolerances.</p>
+
+    </div>
+
+    <!-- Right Column: Image -->
+    <div class="col-md-6 text-center">
+      <img src="https://www.ghaimagroup.com/imgs/process-of-laser-alignment-services5.jpg" alt="Skill Image" class="img-fluid custom-img">
+    </div>
+
+  </div>
+</div>
+</section>
+
+<section class="py-110 bg-white" id="rewindingService">
+<div class="container mt-5">
+  <div class="row align-items-center custom-section">
+    
+    <!-- Left Column: Text -->
+
+    <div class="col-md-6 text-center">
+      <img src="https://www.ghaimagroup.com/imgs/component-and-equipment-restoration-specialists4.jpg" alt="Skill Image" class="img-fluid custom-img" height="400px">
+    </div>
+
+
+    <!-- Right Column: Image -->
+        <div class="col-md-6 mb-4 mb-md-0">
+        <h2 class="display-4 font-weight-bold text-primary mb-4">Realignment Verification</h2>
+      <p class="custom-description">
+         Technicians check if the misalignment has been reduced to within acceptable limits. After adjustments, the laser alignment devices are used again to measure the alignment. This step helps ensure the accuracy of the alignment and confirms that the adjustments have been successfully implemented.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section class="py-101 bg-white" id="rewindingService">
+<div class="container mt-5">
+  <div class="row align-items-center custom-section">
+    
+    <!-- Left Column: Text -->
+    <div class="col-md-6 mb-4 mb-md-0 no-top-space">
+      <h2 class="display-4 font-weight-bold text-primary mb-4">Reciprocating Compressor Upkeep</h2>
+      <p class="custom-description">Reciprocal compressors have a well-known ability to provide high-pressure air or gas. Ghaima Group offers specialized maintenance services and reciprocating compressor repair to extend the efficiency and lifespan of reciprocating compressors. Regular inspections, replacing worn-out parts like valves and piston rings, controlling lubrication, and checking the alignment of the compressor's components are required to achieve this. Regular maintenance increases dependability, reduces downtime, and enables the compressor to run within predetermined limits.</p>
+
+    </div>
+
+    <!-- Right Column: Image -->
+    <div class="col-md-6 text-center">
+      <img src="https://www.ghaimagroup.com/imgs/component-and-equipment-restoration-specialists3.jpg" alt="Skill Image" class="img-fluid custom-img">
+    </div>
+
+  </div>
+</div>
+</section>
+
+<section class="py-110 bg-white" id="rewindingService">
+<div class="container mt-5">
+  <div class="row align-items-center custom-section">
+    
+    <!-- Left Column: Text -->
+
+    <div class="col-md-6 text-center">
+      <img src="https://www.ghaimagroup.com/imgs/maintenance-centrifugal-compressors.jpg" alt="Skill Image" class="img-fluid custom-img" height="400px">
+    </div>
+
+
+    <!-- Right Column: Image -->
+        <div class="col-md-6 mb-4 mb-md-0">
+        <h2 class="display-4 font-weight-bold text-primary mb-4">Final Reporting</h2>
+      <p class="custom-description">A comprehensive report is generated, documenting the alignment process, initial and final measurements, adjustments made, and any additional recommendations. This report serves as a reference for future maintenance and aids in tracking the machinery's alignment history.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!-- our services -->
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-111 " id="services">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">Components of Laser Shaft Alignment Services</h2>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-cogs fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Laser Alignment Devices</h4>
+          <p class="text-muted small">These devices consist of a laser emitter and detector that measure the relative position of shafts. They provide real-time feedback on misalignment and assist in making precise adjustments.</p>
+        </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-bolt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Alignment Software</h4>
+          <p class="text-muted small">Alignment software is used to interpret the measurement data and visually represent misalignment. It aids technicians in accurately assessing alignment conditions and guides them in making necessary adjustments.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-globe fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Alignment Tolerances</h4>
+          <p class="text-muted small">Each machinery manufacturer sets specific alignment tolerances to ensure optimal performance and prevent premature wear or damage. Technicians follow these tolerances to achieve alignment within acceptable limits.</p>
+
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <div style="background-color: #e8f1ff; color: #276ef1; width: 60px; height: 60px;" class="service-icon mb-3 d-flex align-items-center justify-content-center rounded-circle"><i class="fas fa-shield-alt fa-2x text-blue"></i></div>
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Thermal Growth Compensation</h4>
+          <p class="text-muted small">Machinery undergoes thermal expansion and contraction during operation, which affects alignment. Technicians account for this thermal growth and calculate compensation values to achieve accurate alignment at operating temperatures.</p>
+        </div>
+      </div>
+
+
+      <!-- Custom Solutions CTA -->
+      <div class="col-md-6 col-lg-4 mb-4" style="background: linear-gradient(to right, #2563eb, #1e40af);">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-blue text-white d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="font-weight-bold">A Great Laser Shaft Alignment Services</h5>
+            <p class="lead">Futorion can provide Precision maintenance in many industries depends on laser shaft alignment services. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+</div>
+
+
+<!-- our services -->
+ <div class="bg-color">
+  <!-- first section -->
+ <section class="services-section py-111 " id="services">
+  <div class="container">
+    <h2 class="text-center font-weight-bold text-dark-blue">Benefits of Laser Alignment Services in Dubai</h2>
+    <div class="underline mb-5 mx-auto"></div>
+
+    <div class="row">
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Increased Machinery Reliability</h4>
+            <p class="lead">Proper alignment enhances machinery reliability by reducing rotating components' vibration, heat generation, and stress. This helps prevent premature failures and extends machinery’s lifespan. </p>
+          </div>
+      </div>
+
+      <!-- Repeat this block for each service -->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Improved Energy Efficiency</h4>
+            <p class="lead">Misaligned shafts result in increased energy consumption due to higher friction and inefficiencies. Laser shaft alignment reduces energy waste by aligning posts to minimize unnecessary power consumption. </p>
+          </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Enhanced Equipment Performance</h4>
+            <p class="lead">Accurate alignment ensures optimal performance of rotating machinery, leading to improved productivity, reduced downtime, and higher-quality output. </p>
+          </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Cost Savings</h4>
+            <p class="lead">Laser shaft alignment services contribute to cost savings by minimizing maintenance and repair expenses. Proper alignment reduces wear on components, lowers the risk of breakdowns, and eliminates the need for frequent replacements.</p>
+          </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="service-card h-100 p-4 rounded shadow-sm bg-white">
+          <h4 class="font-weight-bolder" style=" color: #0059ff;">Health And Safety</h4>
+            <p class="lead">Well-aligned machinery reduces the risk of accidents, such as bearing failures or shaft breakages, which can cause harm to personnel and damage surrounding equipment.</p>
+          </div>
+      </div>
+
+    </div>
+  </div>
+  </section>
+</div>
+
+
+<footer>
+  <div class="cta-section">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Contact our team today to discuss how FUTURION can help with your engineering and technical needs.</p>
+    <a href="#contact" class="btn-contact">Contact Us Now</a>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>FUTURION</h3>
+      <p>A professional trading company with high expertise in different engineering fields with over 250 completed projects across the Middle East.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Engineering Solutions</a></li>
+        <li><a href="#">Technical Services</a></li>
+        <li><a href="#">Product Delivery</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li>UAE, Dubai</li>
+        <li>+971 4 123 4567</li>
+        <li>info@futurion.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 FUTURION. All rights reserved.
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
